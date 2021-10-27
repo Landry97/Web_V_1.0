@@ -5,8 +5,11 @@
 }
 figure, figure img, picture{ 
 display: flex;
+} 
+figure{ 
 position: relative;
 } 
+
 body#bodyid.bodyclass.show{
 overflow: hidden;} 
 body{
@@ -598,6 +601,11 @@ figure.project1:before{
 @media screen and (min-width: 440px){
     figure.project1:before{
         border: 1px solid black;
+    }
+}
+@media screen and (max-width: 440px){
+    project-info1{
+        display: none;
     }
 }
 
