@@ -604,7 +604,7 @@ figure.project1:before{
     }
 }
 @media screen and (max-width: 440px){
-    project-info1{
+    .project-info1{
         display: none;
     }
 }
