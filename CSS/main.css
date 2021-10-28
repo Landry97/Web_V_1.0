@@ -603,9 +603,12 @@ figure.project1:before{
     figure.project1:before{
         border: 1px solid black;
     }
+	.project1 .project-info1{
+        color: black;
+    }
 }
 @media screen and (max-width: 440px){
-    figcaption.project-info1{
+    .project1 .project-info1{
         color: transparent;
     }
 }
@@ -622,7 +625,6 @@ figcaption.project-info1 {
 .project1 .project-info1{
     position: absolute;
     z-index: 3;
-    color: black;
     opacity: 0;
     transform: translateY(0);
     transition: 0.1s;
