@@ -8,10 +8,7 @@ display: flex;
 } 
 figure{ 
 position: relative;
-margin: 3em 1em 3em 1em;
-	max-height: 50%;
-	max-width: 50%;
-	
+margin: 2em 1em 2em 1em;
 } 
 
 body#bodyid.bodyclass.show{
