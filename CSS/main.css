@@ -8,6 +8,7 @@ display: flex;
 } 
 figure{ 
 position: relative;
+margin: 1em;
 } 
 
 body#bodyid.bodyclass.show{
