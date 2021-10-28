@@ -605,7 +605,7 @@ figure.project1:before{
     }
 }
 @media screen and (max-width: 440px){
-    .project-info1{
+    figcaption.project-info1{
         color: transparent;
     }
 }
