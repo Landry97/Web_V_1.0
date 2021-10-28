@@ -600,13 +600,15 @@ figure.project1:before{
 }
 
 @media screen and (min-width: 440px){
-    figure.project1:before{
-        border: 1px solid black;
-    }
 	.project1 .project-info1{
         color: black;
     }
 }
+
+figure.project1:before{
+        border: 1px solid black;
+    }
+
 @media screen and (max-width: 440px){
     .project1 .project-info1{
         color: transparent;
