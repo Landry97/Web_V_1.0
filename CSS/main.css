@@ -1,3 +1,8 @@
+figure.project1{
+  width: 20vw; // we know it will be full-width
+  height: calc(20vw * var(--ratio));
+}
+
 * {
     margin: 0%;
     padding: 0%;
