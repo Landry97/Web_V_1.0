@@ -1,6 +1,12 @@
+
+project-list{
+	height: 100vh;
+}
+
+
 figure.project1{
-  width: 33vw; // we know it will be full-width
-  height: calc(33vw * var(--ratio));
+  width: auto; 
+	height: auto;
 }
 
 * {
