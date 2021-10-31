@@ -1,6 +1,6 @@
 figure.project1{
-  width: 20vw; // we know it will be full-width
-  height: calc(20vw * var(--ratio));
+  width: 33vw; // we know it will be full-width
+  height: calc(33vw * var(--ratio));
 }
 
 * {
