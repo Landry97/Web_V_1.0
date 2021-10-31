@@ -1,15 +1,5 @@
-
-.project-list{
-	height: 100vh;
-}
-.project-wrapper{
-	height: 100vh;
-}
-
-
 figure.project1{
   width: 25vw; 
-	height: 25vh;
 }
 
 * {
