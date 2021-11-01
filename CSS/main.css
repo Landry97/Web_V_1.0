@@ -1,20 +1,3 @@
-@media screen and (max-width: 440px){
-	figure.project1{
-  width: 44vw; 
-		margin:2.5vw;
-		padding:0;}
-	footer{
-		flex-wrap: wrap;}
-	#mybtn{
-		margin-left: auto;}
-}
-@media screen and (min-width: 440px){
-	footer{
-		flex-wrap: nowrap;}
-	#mybtn{
-		margin-left: 3.5%;}
-}
-
 * {
     margin: 0%;
     padding: 0%;
@@ -658,3 +641,19 @@ figcaption.project-info1 {
     letter-spacing: .15rem;
 }
 
+@media screen and (max-width: 440px){
+	figure.project1{
+  width: 44vw; 
+		margin:2.5vw;
+		padding:0;}
+	footer{
+		flex-wrap: wrap;}
+	#mybtn{
+		margin-left: auto;}
+}
+@media screen and (min-width: 440px){
+	footer{
+		flex-wrap: nowrap;}
+	#mybtn{
+		margin-left: 3.5%;}
+}
