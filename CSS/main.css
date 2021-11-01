@@ -425,7 +425,6 @@ footer p a {
 #myBtn {
     display: none;
     align-items: center;
-    margin-right: 3.5%;
     z-index: 99; /* not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
@@ -655,7 +654,8 @@ figcaption.project-info1 {
 	.copyright{
 		margin-left: 3.5%;}
 	#myBtn{
-		margin-left: auto;}
+		margin-left: auto;
+	        margin-right: 7%;}
 }
 	
 @media (min-width: 440px){
@@ -664,5 +664,6 @@ figcaption.project-info1 {
 	.copyright{
 		margin-left: auto;}
 	#myBtn{
-		margin-left: 3.5%;}
+		margin-left: 3.5%;
+	        margin-right: 3.5%;}
 }
