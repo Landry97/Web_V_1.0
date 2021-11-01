@@ -384,10 +384,10 @@ footer{
     width: 100%;
     padding-top: 5rem;
     padding-bottom: 3rem;
+    margin-left: .5rem;
+    padding-left: 1rem;
     letter-spacing: .1rem;
     font-size: .75em;
-    margin: .5rem;
-    padding: 1rem;
 }
 footer p a {
     color: black;
@@ -657,7 +657,7 @@ figcaption.project-info1 {
 		margin-left: 3.5%;}
 	#myBtn{
 		margin-left: auto;
-	        margin-right: 3.5%;}
+	        margin-right: 6%;}
 }
 	
 @media (min-width: 440px){
