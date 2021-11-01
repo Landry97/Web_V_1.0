@@ -651,7 +651,7 @@ figcaption.project-info1 {
 	footer{
 		flex-wrap: wrap;
 	        flex-direction: column;
-	.copywrite{
+	.copyrigth{
 		margin-left: 3.5%;}
 	#myBtn{
 		margin-left: 3.5%;}
@@ -659,7 +659,7 @@ figcaption.project-info1 {
 @media screen and (min-width: 440px){
 	footer{
 		flex-wrap: nowrap;}
-	.copywrite{
+	.copyrigth{
 		margin-left: auto;}
 	#myBtn{
 		margin-left: auto;}
