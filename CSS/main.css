@@ -648,12 +648,12 @@ figcaption.project-info1 {
 		padding:0;}
 	footer{
 		flex-wrap: wrap;}
-	#mybtn{
+	.mybtn{
 		margin-left: auto;}
 }
 @media screen and (min-width: 440px){
 	footer{
 		flex-wrap: nowrap;}
-	#mybtn{
+	.mybtn{
 		margin-left: 3.5%;}
 }
