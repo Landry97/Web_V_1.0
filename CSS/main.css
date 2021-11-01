@@ -416,6 +416,15 @@ footer p a {
     margin-left: 2.5%;
     margin-top: 0;
 }
+.datenschutz{
+    height: 100%;
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    margin-right: 3.5%;
+    margin-left: 3.5%;
+    margin-top: 0;
+}
 /* Scrollup Button________________________________________________________________ */
 #myBtn {
     display: none;
