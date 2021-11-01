@@ -1,3 +1,12 @@
+.headline2 {
+    width: 100%;
+    background: white;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: left;
+    margin-top: 1rem;
+}
 .holdingcontainer2 {
     width: 100%;
     background: white;
