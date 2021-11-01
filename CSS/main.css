@@ -3,7 +3,16 @@
   width: 44vw; 
 		margin:2.5vw;
 		padding:0;
-}}
+}
+	.footer{
+		flex-wrap: wrap;
+		
+}
+	#mybtn{
+		margin-left: auto;
+		
+}
+}
 
 * {
     margin: 0%;
