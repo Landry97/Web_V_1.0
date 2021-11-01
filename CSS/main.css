@@ -643,7 +643,7 @@ figcaption.project-info1 {
     letter-spacing: .15rem;
 }
 
-@media screen and (max-width: 440px){
+@media (max-width: 440px){
 	figure.project1{
   width: 44vw; 
 		margin:2.5vw;
@@ -656,7 +656,8 @@ figcaption.project-info1 {
 	#myBtn{
 		margin-left: 3.5%;}
 }
-@media screen and (min-width: 440px){
+	
+@media (min-width: 440px){
 	footer{
 		flex-wrap: nowrap;}
 	.copyright{
