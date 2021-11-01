@@ -647,7 +647,8 @@ figcaption.project-info1 {
 		margin:2.5vw;
 		padding:0;}
 	footer{
-		flex-wrap: wrap;}
+		flex-wrap: wrap;
+	        flex-direction: column;}
 	#myBtn{
 		margin-left: auto;}
 }
