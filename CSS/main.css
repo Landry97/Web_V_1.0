@@ -2,16 +2,11 @@
 	figure.project1{
   width: 44vw; 
 		margin:2.5vw;
-		padding:0;
-}
+		padding:0;}
 	footer{
-		flex-wrap: wrap;
-		
-}
+		flex-wrap: wrap;}
 	#mybtn{
-		margin-left: auto;
-		
-}
+		margin-left: auto;}
 }
 
 * {
