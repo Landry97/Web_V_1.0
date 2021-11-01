@@ -398,16 +398,17 @@ footer p a {
     align-items: center;
     margin-right: 3.5%;
     margin-left: 3.5%;
-    margin-top: 0;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 .copyright{
     height: 100%;
     display: flex;
     align-content: center;
     align-items: center;
-    margin-right: 2.5%;
-    margin-left: auto;
-    margin-top: 0;
+    margin-right: 3.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 .datenschutz{
     height: 100%;
@@ -416,7 +417,8 @@ footer p a {
     align-items: center;
     margin-right: 3.5%;
     margin-left: 3.5%;
-    margin-top: 0;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 /* Scrollup Button________________________________________________________________ */
 #myBtn {
@@ -648,13 +650,17 @@ figcaption.project-info1 {
 		padding:0;}
 	footer{
 		flex-wrap: wrap;
-	        flex-direction: column;}
+	        flex-direction: column;
+	.copywrite{
+		margin-left: 3.5%;}
 	#myBtn{
 		margin-left: auto;}
 }
 @media screen and (min-width: 440px){
 	footer{
 		flex-wrap: nowrap;}
+	.copywrite{
+		margin-left: auto;}
 	#myBtn{
 		margin-left: 3.5%;}
 }
