@@ -650,7 +650,7 @@ figcaption.project-info1 {
 		padding:0;}
 	footer{
 		flex-wrap: wrap;
-	        flex-direction: column;
+	        flex-direction: column;}
 	.copyright{
 		margin-left: 3.5%;}
 	#myBtn{
