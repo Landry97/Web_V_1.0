@@ -416,8 +416,6 @@ footer p a {
     display: flex;
     align-content: space-around;
     align-items: center;
-    margin-right: 3.5%;
-    margin-left: 3.5%;
     margin-top: .5%;
     margin-bottom: .5%;
 }
@@ -651,10 +649,14 @@ figcaption.project-info1 {
 	footer{
 		flex-wrap: wrap;
 	        flex-direction: column;}
-	.copyright{
-		margin-left: 3.5%;}
+	
 	.instagram {
-                margin-left: 3.5%}
+                margin-left: 0;}
+	.copyright{
+		margin-left: 0;}
+	.datenschutz{
+		margin-left: 0;}
+	
 	#myBtn{
 		margin-left: auto;
 	        margin-right: 6%;}
@@ -666,6 +668,9 @@ figcaption.project-info1 {
 	.copyright{
 		margin-left: auto;}
 	#myBtn{
+		margin-left: 3.5%;
+	        margin-right: 3.5%;}
+	.datenschutz{
 		margin-left: 3.5%;
 	        margin-right: 3.5%;}
 }
