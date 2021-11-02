@@ -177,8 +177,8 @@ text-align: center;
 align-items: center;
 flex-direction: row;
 letter-spacing: .3rem;
-margin-right: 4rem;
-margin-left: 4rem;
+padding-right: 4rem;
+padding-left: 4rem;
 }
 li.menu-item a{
     color: black;
@@ -194,7 +194,7 @@ nav.menu ul {
     width: 100%;
 }
 nav.menu ul li {
-    margin-left:2rem;
+    padding-left:2.5rem;
 }
 nav.menu {
 background-size: 1rem 1rem;
