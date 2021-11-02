@@ -32,10 +32,6 @@ body{
    max-width: 100%; 
   object-fit: contain;
 }
-  
-  #myBtn {
-    display: block;
-}
 .madeby{
     display: flex;
     width: auto;
