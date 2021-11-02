@@ -642,10 +642,6 @@ figcaption.project-info1 {
 }
 
 @media (max-width: 440px){
-	figure.project1{
-  width: 44vw; 
-		margin:2.5vw;
-		padding:0;}
 	footer{
 		flex-wrap: wrap;
 	        flex-direction: column;}
@@ -661,6 +657,11 @@ figcaption.project-info1 {
 		margin-left: auto;
 	        margin-right: 6%;}
 }
+@media (max-width: 750px){
+	figure.project1{
+  width: 44vw; 
+		margin:2.5vw;
+		padding:0;}}
 	
 @media (min-width: 440px){
 	footer{
