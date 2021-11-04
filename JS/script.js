@@ -1,21 +1,24 @@
 
 const mouseTarget = document.getElementById('mouseTarget')
 var main = document.getElementsByTagName("main")
+var header = document.getElementsByTagName("header")
 
 mouseTarget.addEventListener('mouseenter', function(){
  body.style.background = "red";
  document.documentElement = "red";
  body.style.backgroundColor = "red";
- body.style.color = "green";
+ body.style.color = "white";
  main.style.backgroundColor = "red";
  main.style.color = "green";
  main.style.background = "red";
+ header.style.backgroundColor = "red";
 })
 
 mouseTarget.addEventListener('mouseleave', function(){
  body.style.background = "";
  body.style.backgroundColor = "";
  body.style.color = "";
+ header.style.backgroundColor = "red";
 })
 function myFunction(x) {
   if (x.matches) { // If media query matches
