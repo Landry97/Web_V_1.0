@@ -2,11 +2,15 @@
 const mouseTarget = document.getElementById('mouseTarget')
 
 mouseTarget.addEventListener('mouseenter', function(){
-  document.body.style.background = "red";
+ body.style.background = "red";
+ body.style.backgroundColor = "red";
+ body.style.color = "green";
 })
 
 mouseTarget.addEventListener('mouseleave', function(){
-  document.body.style.background = "";
+ body.style.background = "";
+ body.style.backgroundColor = "";
+ body.style.color = "";
 })
 function myFunction(x) {
   if (x.matches) { // If media query matches
