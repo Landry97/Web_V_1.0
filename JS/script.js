@@ -1,5 +1,5 @@
 
-var info = document.getElementById('project-info1')
+var info = document.getElementsByClassName('project-info1')
 var mouseTarget = document.getElementById('mouseTarget')
 var main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
