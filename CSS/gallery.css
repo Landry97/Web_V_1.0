@@ -110,7 +110,7 @@ body{
   div.dot{
     margin: 0.5rem;
     position: relative;
-    padding: 0.55rem 0.55rem;
+    padding: 3%;
   }
   img.dot{
     position: absolute;
