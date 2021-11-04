@@ -1,5 +1,5 @@
-funktion changecolorBg(color){
-  document.bgColor = color;
+funktion changecolorBg(){
+   document.body.style.backgroundColor = "red";
 }
 
 
