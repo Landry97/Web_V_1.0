@@ -1,4 +1,4 @@
-funktion changecolorBg(){
+function changecolorBg(){
    document.body.style.backgroundColor = "red";
 }
 
