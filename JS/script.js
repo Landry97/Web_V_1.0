@@ -6,8 +6,10 @@ var info4 = document.getElementById('project-info4')
 var info5 = document.getElementById('project-info5')
 var main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
+var border = document.getElementById('pictureid')
 
 mouseTarget.addEventListener('mouseenter', function(){
+ border.style.border = "10px";
  info1.style.opacity = "1";
  info2.style.opacity = "1";
  info3.style.opacity = "1";
@@ -21,6 +23,7 @@ mouseTarget.addEventListener('mouseenter', function(){
 })
 
 mouseTarget.addEventListener('mouseleave', function(){
+ border.style.border = "";
  info1.style.opacity = "";
  info2.style.opacity = "";
  info3.style.opacity = "";
