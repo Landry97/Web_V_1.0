@@ -5,7 +5,8 @@ var main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
 
 mouseTarget.addEventListener('mouseenter', function(){
- info.style.ocopacity = "1";
+ info.style.opacity = "1";
+ info.style.transform = "translateY(0)";
  body.style.background = "red";
  document.documentElement = "red";
  body.style.backgroundColor = "red";
@@ -17,7 +18,8 @@ mouseTarget.addEventListener('mouseenter', function(){
 })
 
 mouseTarget.addEventListener('mouseleave', function(){
- info.style.ocopacity = "";
+info.style.opacity = "";
+ info.style.transform = "";
  body.style.background = "";
  body.style.backgroundColor = "";
  body.style.color = "";
