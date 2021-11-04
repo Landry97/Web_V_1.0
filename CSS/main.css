@@ -1,5 +1,5 @@
 html{
--webkit-tap-highlight-color: #ffffff;
+-webkit-tap-highlight-color: none;
 }
 * {
     margin: 0%;
