@@ -172,11 +172,11 @@ width: 100%;
   }
   .previous{
    left: 0;    
-	  padding: 40vh 44vw 40vh 5vw;
+	  padding: 35vh 44vw 35vh 5vw;
   }
   .next {
    right: 0;
-	  padding: 40vh 5vw 40vh 44vw;
+	  padding: 35vh 5vw 35vh 44vw;
   }
   .previous:hover,
   .next:hover {
