@@ -4,7 +4,6 @@ var info2 = document.getElementById('project-info2')
 var info3 = document.getElementById('project-info3')
 var info4 = document.getElementById('project-info4')
 var info5 = document.getElementById('project-info5')
-var info6 = document.getElementById('project-info6')
 var main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
 
@@ -14,7 +13,6 @@ mouseTarget.addEventListener('mouseenter', function(){
  info3.style.opacity = "1";
  info4.style.opacity = "1";
  info5.style.opacity = "1";
- info6.style.opacity = "1";
  body.style.background = "red";
  document.documentElement = "red";
  body.style.color = "black";
