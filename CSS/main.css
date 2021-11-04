@@ -411,7 +411,7 @@ footer p a {
     margin-top: .5%;
     margin-bottom: .5%;
 }
-.datenschutz{
+.privacy{
     height: 1rem;
     display: flex;
     align-content: space-around;
@@ -641,7 +641,7 @@ figcaption.project-info1 {
     letter-spacing: .15rem;
 }
 
-@media (max-width: 440px){
+@media (max-width: 600px){
 	footer{
 		flex-wrap: wrap;
 	        flex-direction: column;}
@@ -650,7 +650,7 @@ figcaption.project-info1 {
                 margin-left: 0;}
 	.copyright{
 		margin-left: 0;}
-	.datenschutz{
+	.privacy{
 		margin-left: 0;}
 	
 	#myBtn{
@@ -663,7 +663,7 @@ figcaption.project-info1 {
 		margin:2.5vw;
 		padding:0;}}
 	
-@media (min-width: 440px){
+@media (min-width: 600px){
 	footer{
 		flex-wrap: nowrap;}
 	.copyright{
@@ -671,7 +671,7 @@ figcaption.project-info1 {
 	#myBtn{
 		margin-left: 3.5%;
 	        margin-right: 3.5%;}
-	.datenschutz{
+	.privacy{
 		margin-left: 3.5%;
 	        margin-right: 3.5%;}
 }
