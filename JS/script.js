@@ -1,6 +1,5 @@
 
-const mouseTarget = document.getElementById('mouseTarget');
-const unorderedList = document.getElementById('unorderedList');
+const mouseTarget = document.getElementById('mouseTarget')
 
 mouseTarget.addEventListener('mouseenter', function(){
   body.style.color = 'red';
