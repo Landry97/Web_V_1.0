@@ -1,9 +1,11 @@
 
-const mouseTarget = document.getElementById('mouseTarget')
+var info = document.getElementById('project-info1')
+var mouseTarget = document.getElementById('mouseTarget')
 var main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
 
 mouseTarget.addEventListener('mouseenter', function(){
+ info.style.ocopacity = "1";
  body.style.background = "red";
  document.documentElement = "red";
  body.style.backgroundColor = "red";
@@ -15,6 +17,7 @@ mouseTarget.addEventListener('mouseenter', function(){
 })
 
 mouseTarget.addEventListener('mouseleave', function(){
+ info.style.ocopacity = "";
  body.style.background = "";
  body.style.backgroundColor = "";
  body.style.color = "";
