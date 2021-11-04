@@ -5,12 +5,19 @@ var leaveEventCount = 0;
 const mouseTarget = document.getElementById('mouseTarget');
 const unorderedList = document.getElementById('unorderedList');
 
-mouseTarget.addEventListener('mouseenter', e => {
+btn.addEventListener('click', function(){
+    const randomNumber = 2;
+    document.body.style.backgroundColor = colors[randomNumber];
+    color.textContent = colors[randomNumber];
+}
+);
+
+mouseTarget.addEventListener('mouseenter', function(){
   body.style.background-color = 'red';
   enterEventCount++;
 });
 
-mouseTarget.addEventListener('mouseleave', e => {
+mouseTarget.addEventListener('mouseleave', function(){
   body.style.background-color = 'transparent';
   leaveEventCount++;
 });
