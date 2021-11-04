@@ -14,19 +14,23 @@ mouseTarget.addEventListener('mouseenter', function(){
  info4.style.opacity = "1";
  info5.style.opacity = "1";
  body.style.background = "red";
- document.documentElement = "red";
  body.style.color = "black";
  main.style.background = "red";
  header.style.backgroundColor = "red";
+ document.documentElement = "red";
 })
 
 mouseTarget.addEventListener('mouseleave', function(){
-info.style.opacity = "";
- info.style.transform = "";
+ info1.style.opacity = "";
+ info2.style.opacity = "";
+ info3.style.opacity = "";
+ info4.style.opacity = "";
+ info5.style.opacity = "";
  body.style.background = "";
- body.style.backgroundColor = "";
  body.style.color = "";
+ main.style.background = "";
  header.style.backgroundColor = "";
+ document.documentElement = "";
 })
 function myFunction(x) {
   if (x.matches) { // If media query matches
