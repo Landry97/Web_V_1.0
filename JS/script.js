@@ -6,7 +6,7 @@ mouseTarget.addEventListener('mouseenter', function(){
 })
 
 mouseTarget.addEventListener('mouseleave', function(){
-  body.style.background-color = 'transparent';
+  body.style.background-color = '';
 })
 function myFunction(x) {
   if (x.matches) { // If media query matches
