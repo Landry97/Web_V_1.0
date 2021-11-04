@@ -1,6 +1,6 @@
 
 const mouseTarget = document.getElementById('mouseTarget')
-const main = document.getElementsByTagName(main)
+var main = document.getElementsByTagName("main")
 
 mouseTarget.addEventListener('mouseenter', function(){
  body.style.background = "red";
