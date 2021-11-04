@@ -1,26 +1,23 @@
-var elements = document.getElementsByClassName("project-info1");
-var names = '';
-for(var i = 0; i < elements.length; i++) {
-    names += elements[i].name;
-}
-document.write(names);
-
-
 var mouseTarget = document.getElementById('mouseTarget')
-var info = document.getElementById('project-info1')
+var info1 = document.getElementById('project-info1')
+var info2 = document.getElementById('project-info2')
+var info3 = document.getElementById('project-info3')
+var info4 = document.getElementById('project-info4')
+var info5 = document.getElementById('project-info5')
+var info6 = document.getElementById('project-info6')
 var main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
 
 mouseTarget.addEventListener('mouseenter', function(){
- info.style.opacity = "1";
- elements.style.opacity = "1";
- info.style.transform = "translateY(0)";
+ info1.style.opacity = "1";
+ info2.style.opacity = "1";
+ info3.style.opacity = "1";
+ info4.style.opacity = "1";
+ info5.style.opacity = "1";
+ info6.style.opacity = "1";
  body.style.background = "red";
  document.documentElement = "red";
- body.style.backgroundColor = "red";
  body.style.color = "black";
- main.style.backgroundColor = "red";
- main.style.color = "green";
  main.style.background = "red";
  header.style.backgroundColor = "red";
 })
@@ -31,7 +28,7 @@ info.style.opacity = "";
  body.style.background = "";
  body.style.backgroundColor = "";
  body.style.color = "";
- header.style.backgroundColor = "red";
+ header.style.backgroundColor = "";
 })
 function myFunction(x) {
   if (x.matches) { // If media query matches
