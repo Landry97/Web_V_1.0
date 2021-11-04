@@ -1,3 +1,10 @@
+var elements = document.getElementsByClassName("project-info1");
+var names = '';
+for(var i = 0; i < elements.length; i++) {
+    names += elements[i].name;
+}
+document.write(names);
+
 
 var mouseTarget = document.getElementById('mouseTarget')
 var info = document.getElementsById('project-info1')
@@ -6,6 +13,7 @@ var header = document.getElementsByTagName("header")
 
 mouseTarget.addEventListener('mouseenter', function(){
  info.style.opacity = "1";
+ elements.style.opacity = "1";
  info.style.transform = "translateY(0)";
  body.style.background = "red";
  document.documentElement = "red";
