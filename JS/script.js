@@ -1,6 +1,6 @@
 
 var mouseTarget = document.getElementById('mouseTarget')
-var info = document.getElementById('project-info1')
+var info = document.getElementsById('project-info1')
 var main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
 
