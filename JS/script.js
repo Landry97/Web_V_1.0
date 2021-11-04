@@ -1,15 +1,17 @@
+body = document.getElementById("bodyid");
+
 var enterEventCount = 0;
 var leaveEventCount = 0;
 const mouseTarget = document.getElementById('mouseTarget');
 const unorderedList = document.getElementById('unorderedList');
 
 mouseTarget.addEventListener('mouseenter', e => {
-  document.body.style.background-color = 'red';
+  body.style.background-color = 'red';
   enterEventCount++;
 });
 
 mouseTarget.addEventListener('mouseleave', e => {
-  document.body.style.background-color = 'transparent';
+  body.style.background-color = 'transparent';
   leaveEventCount++;
 });
 function myFunction(x) {
