@@ -1,7 +1,4 @@
-function changecolorBg(){
-   document.body.style.backgroundColor = "red";
-}
-
+function changecolorBg(color){document.bgColor = color;}
 
 function myFunction(x) {
   if (x.matches) { // If media query matches
