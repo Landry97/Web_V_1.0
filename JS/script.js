@@ -1,25 +1,13 @@
 body = document.getElementById("bodyid");
-
-var enterEventCount = 0;
-var leaveEventCount = 0;
 const mouseTarget = document.getElementById('mouseTarget');
 const unorderedList = document.getElementById('unorderedList');
 
-btn.addEventListener('click', function(){
-    const randomNumber = 2;
-    document.body.style.backgroundColor = colors[randomNumber];
-    color.textContent = colors[randomNumber];
-}
-);
-
 mouseTarget.addEventListener('mouseenter', function(){
-  body.style.background-color = 'red';
-  enterEventCount++;
+  body.style.color = 'red';
 });
 
 mouseTarget.addEventListener('mouseleave', function(){
-  body.style.background-color = 'transparent';
-  leaveEventCount++;
+  body.style.color = 'transparent';
 });
 function myFunction(x) {
   if (x.matches) { // If media query matches
