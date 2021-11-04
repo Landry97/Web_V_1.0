@@ -149,6 +149,7 @@ width: 100%;
     right: 25px;
     font-size: 35px;
     font-weight: bold;
+    z-index: 10001;
   }
   .close:hover,
   .close:focus {
