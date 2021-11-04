@@ -1,5 +1,5 @@
 
-var info = document.getElementsByTagName("figcaption")
+const info = document.getElementsByTagName("figcaption")
 var mouseTarget = document.getElementById('mouseTarget')
 var main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
