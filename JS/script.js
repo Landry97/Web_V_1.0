@@ -4,30 +4,14 @@ const mouseTarget = document.getElementById('mouseTarget');
 const unorderedList = document.getElementById('unorderedList');
 
 mouseTarget.addEventListener('mouseenter', e => {
-  body.style.color = 'red';
+  document.body.style.background-color = 'red';
   enterEventCount++;
-  addListItem('This is mouseenter event ' + enterEventCount + '.');
 });
 
 mouseTarget.addEventListener('mouseleave', e => {
-  body.style.color = 'transparent';
+  document.body.style.background-color = 'transparent';
   leaveEventCount++;
-  addListItem('This is mouseleave event ' + leaveEventCount + '.');
 });
-
-function addListItem(text) {
-  // Create a new text node using the supplied text
-  var newTextNode = document.createTextNode(text);
-
-  // Create a new li element
-  var newListItem = document.createElement("li");
-
-  // Add the text node to the li element
-  newListItem.appendChild(newTextNode);
-
-  // Add the newly created list item to list
-  unorderedList.appendChild(newListItem);
-}
 function myFunction(x) {
   if (x.matches) { // If media query matches
     document.getElementById('menu-toggle').style.display = 'flex';
