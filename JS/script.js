@@ -1,11 +1,15 @@
 
 const mouseTarget = document.getElementById('mouseTarget')
+const main = document.getElementByTagName('main')
 
 mouseTarget.addEventListener('mouseenter', function(){
  body.style.background = "red";
  document.documentElement = "red";
  body.style.backgroundColor = "red";
  body.style.color = "green";
+ main.style.backgroundColor = "red";
+ main.style.color = "green";
+ main.style.background = "red";
 })
 
 mouseTarget.addEventListener('mouseleave', function(){
