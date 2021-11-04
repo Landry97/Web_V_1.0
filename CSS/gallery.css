@@ -171,12 +171,12 @@ width: 100%;
 	  z-index:0;
   }
   .previous{
-   left: 0;
-	  padding: 100vh 44vw 100vh 5vw;
+   left: 0;    
+	  padding: 40vh 44vw 40vh 5v;
   }
   .next {
    right: 0;
-	  padding: 100vh 5vw 100vh 44vw;
+	  padding: 40vh 5vw 40vh 44v;
   }
   .previous:hover,
   .next:hover {
