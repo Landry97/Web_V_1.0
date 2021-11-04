@@ -89,7 +89,7 @@ body{
 header{
     position: relative;
     display: flex;
-    background-color: white;
+    background-color: transparent;
     flex-direction: row;
     flex-wrap: nowrap;
     width: 100%;
@@ -341,7 +341,7 @@ address div p a{
 main{
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: transparent;
     height: auto;
     width: 100%;
     color: black;
