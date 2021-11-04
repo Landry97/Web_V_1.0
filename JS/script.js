@@ -4,11 +4,11 @@ const unorderedList = document.getElementById('unorderedList');
 
 mouseTarget.addEventListener('mouseenter', function(){
   body.style.color = 'red';
-});
+})
 
 mouseTarget.addEventListener('mouseleave', function(){
   body.style.color = 'transparent';
-});
+})
 function myFunction(x) {
   if (x.matches) { // If media query matches
     document.getElementById('menu-toggle').style.display = 'flex';
