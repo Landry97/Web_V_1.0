@@ -7,7 +7,7 @@ mouseTarget.addEventListener('mouseenter', function(){
  body.style.background = "red";
  document.documentElement = "red";
  body.style.backgroundColor = "red";
- body.style.color = "white";
+ body.style.color = "black";
  main.style.backgroundColor = "red";
  main.style.color = "green";
  main.style.background = "red";
