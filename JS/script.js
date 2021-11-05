@@ -8,7 +8,7 @@ var main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
 
 mouseTarget.addEventListener('mouseenter', function(){ 
- main.style.background = "black";
+ main.style.backgroundColor = "black";
  info1.style.opacity = "1";
  info2.style.opacity = "1";
  info3.style.opacity = "1";
@@ -22,7 +22,7 @@ mouseTarget.addEventListener('mouseenter', function(){
 })
 
 mouseTarget.addEventListener('mouseleave', function(){
- main.style.background = "";
+ main.style.backgroundColor = "";
  document.getElementById("pictureid1").style.border = "";
  document.getElementById("pictureid2").style.border = "";
  document.getElementById("pictureid3").style.border = "";
