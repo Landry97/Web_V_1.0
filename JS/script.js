@@ -4,11 +4,10 @@ var info2 = document.getElementById('project-info2')
 var info3 = document.getElementById('project-info3')
 var info4 = document.getElementById('project-info4')
 var info5 = document.getElementById('project-info5')
-const main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
 
 mouseTarget.addEventListener('mouseenter', function(){ 
- main.style.backgroundColor = "black";
+ header.style.backgroundColor = "black";
  info1.style.opacity = "1";
  info2.style.opacity = "1";
  info3.style.opacity = "1";
@@ -22,7 +21,7 @@ mouseTarget.addEventListener('mouseenter', function(){
 })
 
 mouseTarget.addEventListener('mouseleave', function(){
- main.style.backgroundColor = "";
+ header.style.backgroundColor = "";
  document.getElementById("pictureid1").style.border = "";
  document.getElementById("pictureid2").style.border = "";
  document.getElementById("pictureid3").style.border = "";
