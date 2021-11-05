@@ -4,7 +4,7 @@ var info2 = document.getElementById('project-info2')
 var info3 = document.getElementById('project-info3')
 var info4 = document.getElementById('project-info4')
 var info5 = document.getElementById('project-info5')
-var main = document.getElementsByTagName("main")
+const main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
 
 mouseTarget.addEventListener('mouseenter', function(){ 
