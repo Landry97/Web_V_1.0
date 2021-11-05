@@ -10,6 +10,7 @@ var border = document.getElementById('pictureid')
 
 mouseTarget.addEventListener('mouseenter', function(){
  border.style.border = "10px";
+ border.style.borderColor = "black";
  info1.style.opacity = "1";
  info2.style.opacity = "1";
  info3.style.opacity = "1";
