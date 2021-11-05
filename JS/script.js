@@ -6,11 +6,11 @@ var info4 = document.getElementById('project-info4')
 var info5 = document.getElementById('project-info5')
 var main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
-var figure = document.getElementsByTagName("figure")
+var infoinfo = document.getElementsByTagName("figure")
 
 mouseTarget.addEventListener('mouseenter', function(){
  info1.style.borderWidth = "10px";
- figure.style.border = "1px solid black";
+ infoinfo.style.border = "1px solid black";
  info1.style.opacity = "1";
  info2.style.opacity = "1";
  info3.style.opacity = "1";
