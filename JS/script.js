@@ -6,7 +6,7 @@ var info4 = document.getElementById('project-info4')
 var info5 = document.getElementById('project-info5')
 var main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
-var border = document.getElementById('pictureid')
+var border = document.getElementsByTagName("figure")
 
 mouseTarget.addEventListener('mouseenter', function(){
  border.style.border = "10px solid black;";
