@@ -9,18 +9,16 @@ var header = document.getElementsByTagName("header")
 var infoinfo = document.getElementsByTagName("figure")
 
 mouseTarget.addEventListener('mouseenter', function(){
- info1.style.borderWidth = "10px";
- infoinfo.style.border = "1px solid black";
  info1.style.opacity = "1";
  info2.style.opacity = "1";
  info3.style.opacity = "1";
  info4.style.opacity = "1";
  info5.style.opacity = "1";
+ document.getElementById("pictureid").style.border = "1px solid black";
 })
 
 mouseTarget.addEventListener('mouseleave', function(){
- document.getElementById("pictureid").style.borderWidth = "10px";
- document.getElementById("pictureid").style.borderColor = "";
+ document.getElementById("pictureid").style.border = "";
  info1.style.opacity = "";
  info2.style.opacity = "";
  info3.style.opacity = "";
