@@ -9,7 +9,7 @@ var header = document.getElementsByTagName("header")
 
 mouseTarget.addEventListener('mouseenter', function(){
  document.getElementById("pictureid").style.borderWidth = "10px";
- document.getElementsByTagName("figure").style.border = "solid black";
+ document.getElementById("pictureid").style.borderColor = "black";
  info1.style.opacity = "1";
  info2.style.opacity = "1";
  info3.style.opacity = "1";
@@ -19,7 +19,7 @@ mouseTarget.addEventListener('mouseenter', function(){
 
 mouseTarget.addEventListener('mouseleave', function(){
  document.getElementById("pictureid").style.borderWidth = "10px";
- document.getElementsByTagName("figure").style.border = "solid black";
+ document.getElementById("pictureid").style.borderColor = "";
  info1.style.opacity = "";
  info2.style.opacity = "";
  info3.style.opacity = "";
