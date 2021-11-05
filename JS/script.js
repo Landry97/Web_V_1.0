@@ -9,7 +9,7 @@ var header = document.getElementsByTagName("header")
 
 mouseTarget.addEventListener('mouseenter', function(){
  info1.style.borderWidth = "10px";
- info1.style.borderColor = "black";
+ info1.style.border = "1px solid black";
  info1.style.opacity = "1";
  info2.style.opacity = "1";
  info3.style.opacity = "1";
