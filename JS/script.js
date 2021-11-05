@@ -8,8 +8,8 @@ var main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
 
 mouseTarget.addEventListener('mouseenter', function(){
- document.getElementById("pictureid").style.borderWidth = "10px";
- document.getElementById("pictureid").style.borderColor = "black";
+ info1.style.borderWidth = "10px";
+ info1.style.borderColor = "black";
  info1.style.opacity = "1";
  info2.style.opacity = "1";
  info3.style.opacity = "1";
