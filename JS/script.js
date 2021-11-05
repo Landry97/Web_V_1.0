@@ -7,7 +7,8 @@ var info5 = document.getElementById('project-info5')
 var main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
 
-mouseTarget.addEventListener('mouseenter', function(){
+mouseTarget.addEventListener('mouseenter', function(){ 
+ main.style.background = "black";
  info1.style.opacity = "1";
  info2.style.opacity = "1";
  info3.style.opacity = "1";
@@ -21,6 +22,7 @@ mouseTarget.addEventListener('mouseenter', function(){
 })
 
 mouseTarget.addEventListener('mouseleave', function(){
+ main.style.background = "";
  document.getElementById("pictureid1").style.border = "";
  document.getElementById("pictureid2").style.border = "";
  document.getElementById("pictureid3").style.border = "";
