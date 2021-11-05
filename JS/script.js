@@ -6,35 +6,25 @@ var info4 = document.getElementById('project-info4')
 var info5 = document.getElementById('project-info5')
 var main = document.getElementsByTagName("main")
 var header = document.getElementsByTagName("header")
-var border = document.getElementsByTagName("figure")
 
 mouseTarget.addEventListener('mouseenter', function(){
- border.style.borderWidth = "10px";
- border.style.border =  "solid black";
+ document.getElementById("pictureid").style.borderWidth = "10px";
+ document.getElementsByTagName("figure").style.border = "solid black";
  info1.style.opacity = "1";
  info2.style.opacity = "1";
  info3.style.opacity = "1";
  info4.style.opacity = "1";
  info5.style.opacity = "1";
- body.style.background = "red";
- body.style.color = "black";
- main.style.background = "red";
- header.style.backgroundColor = "red";
- document.documentElement = "red";
 })
 
 mouseTarget.addEventListener('mouseleave', function(){
- border.style.border = "";
+ document.getElementById("pictureid").style.borderWidth = "10px";
+ document.getElementsByTagName("figure").style.border = "solid black";
  info1.style.opacity = "";
  info2.style.opacity = "";
  info3.style.opacity = "";
  info4.style.opacity = "";
  info5.style.opacity = "";
- body.style.background = "";
- body.style.color = "";
- main.style.background = "";
- header.style.backgroundColor = "";
- document.documentElement = "";
 })
 function myFunction(x) {
   if (x.matches) { // If media query matches
