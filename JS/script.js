@@ -21,7 +21,7 @@ mouseTarget.addEventListener('mouseenter', function(){
 })
 
 mouseTarget.addEventListener('mouseleave', function(){
- document.getElementById("pictureid").style.border = "";
+ document.getElementById("pictureid1").style.border = "";
  document.getElementById("pictureid2").style.border = "";
  document.getElementById("pictureid3").style.border = "";
  document.getElementById("pictureid4").style.border = "";
