@@ -8,9 +8,12 @@ body{
 
 
 p.INFGLLRY {
+    height: 10px;
     position: absolute;
+    width: 10pxpx;
     cursor: pointer;
     z-index: 1000;
+    background-color: transparent;
 	} 
 
 .infogallery {
