@@ -5,6 +5,35 @@
 body{
 	align-items:center;
 }
+
+
+p.INFGLLRY {
+    height: 8px;
+    position: absolute;
+	left: .5rem;
+	bottom: .5rem
+    text-indent: -100rem;
+    width: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 1000;
+    background-color: black;
+	} 
+
+.infogallery {
+    display: none;
+    position: absolute;
+    left: 0;
+    text-indent: -100rem;
+    width: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
   .row {
       display: flex;
       align-items: center;
