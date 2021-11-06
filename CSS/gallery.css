@@ -17,9 +17,10 @@ p.INFGLLRY {
 	} 
 
 .infogallery {
-    bottom: auto;
+    position: fixed;
     left: 0;
     padding: 1em;
+    bottom: 0;
 }
 
 
