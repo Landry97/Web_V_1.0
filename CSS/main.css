@@ -14,7 +14,7 @@
   src: url("Necto-Mono.woff2") format("woff2"),
        url("Necto-Mono.woff") format("woff");
 }
-p, figcapture{
+p, main{
     font-family: Necto-Mono,Trebuchet MS,Arial,sans-serif;
 }
 h{
@@ -372,7 +372,6 @@ main{
     color: black;
     font-size: 1rem;
     letter-spacing: .1rem;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 
