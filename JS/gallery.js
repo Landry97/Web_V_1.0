@@ -84,6 +84,14 @@ function showOverlay() {
   })
 };
 
+const infogallery = document.getElementById('infogalleryid');
+const infid = document.getElementById('INFGLLRY')
+
+infogallery.addEventListener('click', () => {
+      infogallery.classList.toggle('show');
+      infid.classList.toggle('show');
+}); 
+
 var boxid = "Lightbox";
 window.onkeydown = function (event){ 
 if (event.keyCode == 37) {
