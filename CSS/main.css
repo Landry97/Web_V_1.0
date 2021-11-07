@@ -10,7 +10,7 @@ h,h1,h2,h3,h4,h5,h6,a,p,p1,p2,p3,p4,p5,p6,{
 main ul li a{
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
     font-size: 1rem;
-    letter-spacing: .25rem;
+    letter-spacing: .15rem;
     font-weight: lighter;
 }
 
