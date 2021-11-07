@@ -1,7 +1,11 @@
 /*default text*/
-
+@font-face {
+  font-family: "Leofont";
+  src: url("CSS/FILE_NAME.woff2") format("woff2"),
+       url("CSS/FILE_NAME.woff") format("woff");
+}
 p{
-    font-family: Trebuchet MS,Arial,sans-serif;
+    font-family: Leofont,Trebuchet MS,Arial,sans-serif;
 }
 
 /*default web body and pictures*/
