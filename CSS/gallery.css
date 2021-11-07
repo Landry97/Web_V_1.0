@@ -11,11 +11,10 @@ p.INFGLLRY {
 	display: none;
     height: 10px;
     position: absolute;
-    width: 10pxpx;
+    width: 10px;
     cursor: pointer;
     z-index: 1000;
     background-color: transparent;
-	font-size: 0.75rem;
 	} 
 #INFGLLRY.show {
     display: flex;
@@ -85,6 +84,14 @@ p.INFGLLRY {
     .row {
         flex-direction: column;
     }
+      p.INFGLLRY {
+	font-size: .9rem;
+	} 
+  }
+  @media screen and (min-width: 750px) 
+      p.INFGLLRY {
+	font-size: 2rem;
+	} 
   }
 
 .modal {
