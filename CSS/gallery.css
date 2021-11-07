@@ -60,17 +60,22 @@ p.INFGLLRY {
 }
 
 .infogallery {
-    color: rgb(219, 10, 10);
     position: fixed;
     left: 0;
     padding: 1rem 1.5rem;
     bottom: 0;
     text-decoration: none;
 }
-.infogallery.show {
+.infogallery a{
+    color: rgb(219, 10, 10);
+}
+.infogallery.show p{
     color: black;
 }
-.infogallery:hover {
+.infogallery.show a{
+    color: black;
+}
+.infogallery a:hover {
     color: black;
 }
 
