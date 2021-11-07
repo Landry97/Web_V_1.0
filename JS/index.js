@@ -10,20 +10,10 @@ mouseTarget.addEventListener('mouseenter', function(){
  info3.style.opacity = "1";
  info4.style.opacity = "1";
  info5.style.opacity = "1";
- document.getElementById("pictureid1").style.border = "2.5px solid black";
- document.getElementById("pictureid2").style.border = "2.5px solid black";
- document.getElementById("pictureid3").style.border = "2.5px solid black";
- document.getElementById("pictureid4").style.border = "2.5px solid black";
- document.getElementById("pictureid5").style.border = "2.5px solid black";
  document.getElementById("bodyid").style.background = "red";
 })
 mouseTarget.addEventListener('mouseleave', function(){
  document.getElementById("bodyid").style.background = "";
- document.getElementById("pictureid1").style.border = "";
- document.getElementById("pictureid2").style.border = "";
- document.getElementById("pictureid3").style.border = "";
- document.getElementById("pictureid4").style.border = "";
- document.getElementById("pictureid5").style.border = "";
  info1.style.opacity = "";
  info2.style.opacity = "";
  info3.style.opacity = "";
