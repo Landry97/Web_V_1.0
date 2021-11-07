@@ -17,6 +17,9 @@ p.INFGLLRY {
     background-color: transparent;
 	} 
 #INFGLLRY.show {display:flex;
+	position: absolute;
+	height: 50vh;
+	width: 100vw;
 	} 
 
 .infogallery {
