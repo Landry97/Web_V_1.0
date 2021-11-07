@@ -19,20 +19,19 @@ p.INFGLLRY {
   p.INFGLLRY {
 	  font-size: 0.75rem;
 	}}
-@media screen and (min-width:330px){
+@media screen and (min-width:350px){
   p.INFGLLRY {
 	  font-size: .95rem;
 	}}
-
-@media screen and (min-width:300px){
+@media screen and (min-width:550px){
   p.INFGLLRY {
 	  font-size: 1.45rem;
 	}}
-@media screen and (min-width:450px){
+@media screen and (min-width:750px){
   p.INFGLLRY {
 	  font-size: 1.75rem;
 	}}
-@media screen and (min-width:750px){
+@media screen and (min-width:950px){
   p.INFGLLRY {
 	  font-size: 2.05rem;
 	}}
