@@ -161,8 +161,9 @@ p.INFGLLRY {
   }
   div.dots {
     position: absolute;
-    bottom: 3%;
-    right: 3%;display: grid;
+    bottom: 2vh;
+    right: 5vw;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 0.15rem
@@ -207,9 +208,9 @@ width: 100%;
     right: 0;
     font-size: 35px;
     font-weight: bold;
-    padding: 0 1rem 0 .5rem;
-	  z-index:505;
-  }
+    padding: 0 5vw 0 0;
+    z-index: 505;
+}
   .close:hover,
   .close:focus {
     color: #999;
