@@ -161,8 +161,8 @@ p.INFGLLRY {
   }
   div.dots {
     position: absolute;
-    bottom: 2vh;
-    right: 5vw;
+    bottom: 1rem;
+    right: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -208,7 +208,7 @@ width: 100%;
     right: 0;
     font-size: 35px;
     font-weight: bold;
-    padding: 0 5vw 0 0;
+    padding: 0 1rem 0 0;
     z-index: 505;
 }
   .close:hover,
@@ -232,11 +232,11 @@ width: 100%;
   }
   .previous{
    left: 0;    
-	  padding: 35vh 44vw 35vh 5vw;
+	  padding: 35vh 44vw 35vh 1rem;
   }
   .next {
    right: 0;
-	  padding: 35vh 5vw 35vh 44vw;
+	  padding: 35vh 1rem 35vh 44vw;
   }
   .previous:hover,
   .next:hover {
