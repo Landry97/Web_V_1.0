@@ -362,6 +362,8 @@ main{
     width: 100%;
     color: black;
     letter-spacing: .1rem;
+	padding-left:.75rem;
+	padding-right:.75rem;
 }
 
 
