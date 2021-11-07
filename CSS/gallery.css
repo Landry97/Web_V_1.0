@@ -19,18 +19,22 @@ p.INFGLLRY {
   p.INFGLLRY {
 	  font-size: 0.75rem;
 	}}
-@media screen and (min-width:390px){
+@media screen and (min-width:330px){
   p.INFGLLRY {
 	  font-size: .95rem;
 	}}
 
-@media screen and (min-width:390px){
+@media screen and (min-width:330px){
   p.INFGLLRY {
 	  font-size: 1.75rem;
 	}}
-@media screen and (min-width:1200px){
+@media screen and (min-width:750px){
   p.INFGLLRY {
-	  font-size: 2.75rem;
+	  font-size: 2.05rem;
+	}}
+@media screen and (min-width:1350px){
+  p.INFGLLRY {
+	  font-size: 2.95rem;
 	}}
 .header.show {
     position: fixed;
