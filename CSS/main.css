@@ -14,11 +14,15 @@
   src: url("Necto-Mono.woff2") format("woff2"),
        url("Necto-Mono.woff") format("woff");
 }
-p, main{
+p,{
     font-family: Necto-Mono,Trebuchet MS,Arial,sans-serif;
 }
 h{
     font-family: Ortica-Light,Trebuchet MS,Arial,sans-serif;
+}
+main{
+    font-family: Ortica-Light,Trebuchet MS,Arial,sans-serif;
+    font-size: .95em;
 }
 
 /*default web body and pictures*/
