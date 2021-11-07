@@ -11,8 +11,9 @@ h,h1,h2,h3,h4,h5,h6{
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 main ul li a{
-    font-family: Ortica-Light,Trebuchet MS,Arial,sans-serif;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
     font-size: 1rem;
+    letter-spacing: .15rem;
 }
 
 /*default web body and pictures*/
