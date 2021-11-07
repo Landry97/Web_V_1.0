@@ -19,6 +19,7 @@ if (mq.matches) {
 
 function closeLightbox() {
   document.getElementById('headerid').style.position = '';
+  document.getElementById('headerid').style.bottom = '';
   document.getElementById('headerid').style.zIndex = '';
   document.getElementsByTagName('body')[0].style.overflow ="";
   document.getElementById('Lightbox').style.display = 'none'; 
