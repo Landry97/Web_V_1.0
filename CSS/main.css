@@ -138,13 +138,6 @@ header{
     letter-spacing: .6em;
 }
 
-.header-title a{
-    text-decoration: none;
-    list-style-type: none;
-    font-family: Futura,Trebuchet MS,Arial,sans-serif;
-    font-weight: italian;
-}
-
 .header-title a span{
     color: black;
     font-size: 1.25rem;
@@ -173,6 +166,10 @@ nav .menu{
     flex: 1;
 }
 .header-title a{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    letter-spacing: .25rem;
     text-decoration: none;
     padding-top: 1em;
     padding-bottom: 1em;
