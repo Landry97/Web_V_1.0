@@ -187,6 +187,7 @@ a.infogallery:hover {
   div.dot{
     position: relative;
     padding: 0.4rem;
+    cursor: pointer;
   }
   img.dot{
     position: absolute;
