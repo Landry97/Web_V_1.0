@@ -182,7 +182,6 @@ a.infogallery:hover {
     grid-template-rows: auto;
     grid-gap: 0.15rem
     cursor: pointer;
-    z-index:100009;
   }
   div.dot{
     position: relative;
