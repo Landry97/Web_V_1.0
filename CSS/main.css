@@ -1,18 +1,8 @@
 /*default text*/
 @font-face {
-  font-family: "Porpora-Regular";
-  src: url("Porpora-Regular.woff2") format("woff2"),
-       url("Porpora-Regular.woff") format("woff");
-}
-@font-face {
   font-family: "Ortica-Light";
   src: url("Ortica-Light.woff2") format("woff2"),
        url("Ortica-Light.woff") format("woff");
-}
-@font-face {
-  font-family: "Necto-Mono";
-  src: url("Necto-Mono.woff2") format("woff2"),
-       url("Necto-Mono.woff") format("woff");
 }
 a,p,p1,p2,p3,p4,p5,p6{
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
@@ -665,7 +655,7 @@ figcaption.project-info1 {
 }
 .project-info1 p {
     margin: 0;
-    letter-spacing: .15rem;
+    letter-spacing: .1rem;
 }
 
 @media (max-width: 600px){
