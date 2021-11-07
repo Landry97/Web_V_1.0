@@ -15,13 +15,13 @@
        url("Necto-Mono.woff") format("woff");
 }
 p,{
-    font-family: Porpora-Regular,Trebuchet MS,Arial,sans-serif;
+    font-family: Trebuchet MS,Arial,sans-serif;
 }
 h{
-    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    font-family: Trebuchet MS,Arial,sans-serif;
 }
 main{
-    font-family: Porpora-Regular,Trebuchet MS,Arial,sans-serif;
+    font-family: Trebuchet MS,Arial,sans-serif;
     font-size: .75rem;
 }
 
