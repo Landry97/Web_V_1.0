@@ -1,3 +1,11 @@
+const infogallery = document.getElementById('infogalleryid');
+const infid = document.getElementById('INFGLLRY')
+
+infogallery.addEventListener('click', () => {
+      infogallery.classList.toggle('show');
+      infid.classList.toggle('show');
+}); 
+
 let slideIndex = 1;
 
 function openLightbox() {
@@ -83,14 +91,6 @@ function showOverlay() {
     body.scrollLeft(overlaySavedScrollLeft);
   })
 };
-
-const infogallery = document.getElementById('infogalleryid');
-const infid = document.getElementById('INFGLLRY')
-
-infogallery.addEventListener('click', () => {
-      infogallery.classList.toggle('show');
-      infid.classList.toggle('show');
-}); 
 
 var boxid = "Lightbox";
 window.onkeydown = function (event){ 
