@@ -17,6 +17,7 @@ const navUL = document.getElementById('nav-ul');
 const navMenu = document.getElementById('navMenu');
 const address = document.getElementById('address');
 const body = document.getElementById('bodyid');
+const header = document.getElementById('headerid');
 
 menu.addEventListener('click', () => {
       navMenu.classList.toggle('show');
@@ -25,6 +26,7 @@ menu.addEventListener('click', () => {
       body.classList.toggle('show');
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
+      header.classList.toggle('show');
 }); 
 
 //TO TOP BUTTON (working buttom flex right corner start 15pixel)_________________________
