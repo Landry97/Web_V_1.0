@@ -27,6 +27,14 @@ menu.addEventListener('click', () => {
       menupoint.classList.toggle('show');
 }); 
 
+const infogallery = document.getElementById('infogalleryid');
+const infid = document.getElementById('INFGLLRY')
+
+infogallery.addEventListener('click', () => {
+      infogallery.classList.toggle('show');
+      infid.classList.toggle('show');
+}); 
+
 
 //TO TOP BUTTON (working buttom flex right corner start 15pixel)_________________________
 //[Get the button:]
