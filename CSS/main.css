@@ -138,6 +138,7 @@ header{
 .header-title a{
     text-decoration: none;
     list-style-type: none;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 
 .header-title a span{
