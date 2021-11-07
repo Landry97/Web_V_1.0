@@ -66,13 +66,13 @@ p.INFGLLRY {
     bottom: 0;
     text-decoration: none;
 }
-a .infogallery{
+a.infogallery{
     color: rgb(219, 10, 10);
 }
-.infogallery.show p{
+p.infogallery.show {
     color: black;
 }
-a .infogallery.show{
+a.infogallery.show{
     color: black;
 }
 .infogallery a:hover {
