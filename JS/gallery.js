@@ -2,7 +2,7 @@ let slideIndex = 1;
 
 function openLightbox() {
   document.getElementById('headerid').style.position = 'fixed';
-  document.getElementById('headerid').style.height = 'rem';
+  document.getElementById('headerid').style.height = '3rem';
   document.getElementById('headerid').style.top = '0';
   document.getElementById('headerid').style.zIndex = '100001';
   document.getElementsByTagName('body')[0].style.overflow ="hidden";
