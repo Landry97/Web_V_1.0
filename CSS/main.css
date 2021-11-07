@@ -1,8 +1,8 @@
 /*default text*/
 @font-face {
   font-family: "Porpora-Regular";
-  src: url("CSS/Porpora-Regular.woff2") format("woff2"),
-       url("CSS/Porpora-Regular.woff") format("woff");
+  src: url("Porpora-Regular.woff2") format("woff2"),
+       url("Porpora-Regular.woff") format("woff");
 }
 p{
     font-family: Porpora-Regular,Trebuchet MS,Arial,sans-serif;
