@@ -15,6 +15,7 @@ p.INFGLLRY {
     cursor: pointer;
     z-index: 1000;
     background-color: transparent;
+	font-size: 0.75rem;
 	} 
 #INFGLLRY.show {
     display: flex;
