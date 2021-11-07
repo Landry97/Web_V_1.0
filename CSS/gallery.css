@@ -75,7 +75,7 @@ p.infogallery.show {
 a.infogallery.show{
     color: black;
 }
-.infogallery a:hover {
+a.infogallery:hover {
     color: black;
 }
 
