@@ -38,6 +38,9 @@ p.INFGLLRY {
     bottom: 0;
     text-decoration: none;
 }
+#infogalleryid.show {
+    color: black;
+}
 .infogallery:hover {
     color: black;
 }
