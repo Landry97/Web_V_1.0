@@ -1,11 +1,11 @@
 /*default text*/
 @font-face {
-  font-family: "Leofont";
-  src: url("CSS/FILE_NAME.woff2") format("woff2"),
-       url("CSS/FILE_NAME.woff") format("woff");
+  font-family: "Porpora-Regular";
+  src: url("CSS/Porpora-Regular.woff2") format("woff2"),
+       url("CSS/Porpora-Regular.woff") format("woff");
 }
 p{
-    font-family: Leofont,Trebuchet MS,Arial,sans-serif;
+    font-family: Porpora-Regular,Trebuchet MS,Arial,sans-serif;
 }
 
 /*default web body and pictures*/
