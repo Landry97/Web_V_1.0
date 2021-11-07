@@ -257,11 +257,12 @@ width: 100%;
    right: 0;
 	  padding: 35vh 1rem 35vh 44vw;
   }
-  .previous:hover,
+@media screen and (min-width:1800px){
+ .previous:hover,
   .next:hover {
     background-color: transparent;
     color: rgb(219, 10, 10);
-  }
+  }}
   #close-pointer:hover{
       color: rgb(219, 10, 10);
   }
