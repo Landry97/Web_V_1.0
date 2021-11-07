@@ -14,14 +14,14 @@
   src: url("Necto-Mono.woff2") format("woff2"),
        url("Necto-Mono.woff") format("woff");
 }
-p,{
-    font-family: Trebuchet MS,Arial,sans-serif;
+p{
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 h{
-    font-family: Trebuchet MS,Arial,sans-serif;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 main{
-    font-family: Trebuchet MS,Arial,sans-serif;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
     font-size: 1rem;
 }
 
