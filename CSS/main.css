@@ -142,6 +142,7 @@ header{
     text-decoration: none;
     list-style-type: none;
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    font-weight: bold;
 }
 
 .header-title a span{
