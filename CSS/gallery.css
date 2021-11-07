@@ -242,7 +242,7 @@ width: 100%;
     justify-content: center;
     cursor: pointer;
     position: absolute;
-    color: black;
+    color: transparent;
     font-weight: bold;
     font-size: 1.5rem;
     transition: 0.6s ease;
