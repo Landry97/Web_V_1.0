@@ -4,8 +4,13 @@
   src: url("Porpora-Regular.woff2") format("woff2"),
        url("Porpora-Regular.woff") format("woff");
 }
+@font-face {
+  font-family: "Ortica-Light";
+  src: url("Ortica-Light.woff2") format("woff2"),
+       url("Ortica-Light.woff") format("woff");
+}
 p{
-    font-family: Porpora-Regular,Trebuchet MS,Arial,sans-serif;
+    font-family: Ortica-Light,Trebuchet MS,Arial,sans-serif;
 }
 
 /*default web body and pictures*/
