@@ -84,14 +84,6 @@ p.INFGLLRY {
     .row {
         flex-direction: column;
     }
-      p.INFGLLRY {
-	font-size: .9rem;
-	} 
-  }
-  @media screen and (min-width: 750px) 
-      p.INFGLLRY {
-	font-size: 2rem;
-	} 
   }
 
 .modal {
