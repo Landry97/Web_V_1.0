@@ -38,7 +38,7 @@ p.INFGLLRY {
     bottom: 0;
     text-decoration: none;
 }
-#infogalleryid.show {
+.infogallery.show {
     color: black;
 }
 .infogallery:hover {
