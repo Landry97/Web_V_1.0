@@ -15,7 +15,18 @@ p.INFGLLRY {
     cursor: pointer;
     z-index: 1000;
     background-color: transparent;
-	} 
+	}
+
+@media screen and (max-width:440px){
+  p.INFGLLRY {
+	  font-size: 0.85rem;
+	}}
+
+@media screen and (min-width:440px){
+  p.INFGLLRY {
+	  font-size: 1.5rem;
+	}}
+
 #INFGLLRY.show {
     display: flex;
     position: fixed;
