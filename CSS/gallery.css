@@ -19,12 +19,16 @@ p.INFGLLRY {
 
 @media screen and (max-width:440px){
   p.INFGLLRY {
-	  font-size: 0.85rem;
+	  font-size: .95rem;
 	}}
 
 @media screen and (min-width:440px){
   p.INFGLLRY {
-	  font-size: 1.5rem;
+	  font-size: 1.75rem;
+	}}
+@media screen and (min-width:1200px){
+  p.INFGLLRY {
+	  font-size: 2.75rem;
 	}}
 
 #INFGLLRY.show {
