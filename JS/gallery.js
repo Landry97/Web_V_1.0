@@ -16,7 +16,6 @@ if (mq.matches) {
   document.getElementById('menu-toggle').style.display = 'none';
 }
 };
-
 function closeLightbox() {
   document.getElementById('headerid').style.position = '';
   document.getElementById('headerid').style.bottom = '';
