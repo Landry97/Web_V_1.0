@@ -9,8 +9,13 @@
   src: url("Ortica-Light.woff2") format("woff2"),
        url("Ortica-Light.woff") format("woff");
 }
+@font-face {
+  font-family: "Necto-Mono";
+  src: url("Necto-Mono.woff2") format("woff2"),
+       url("Necto-Mono.woff") format("woff");
+}
 p{
-    font-family: Ortica-Light,Trebuchet MS,Arial,sans-serif;
+    font-family: Necto-Mono,Trebuchet MS,Arial,sans-serif;
 }
 h{
     font-family: Ortica-Light,Trebuchet MS,Arial,sans-serif;
