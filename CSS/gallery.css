@@ -6,7 +6,6 @@ body{
 	align-items:center;
 }
 
-
 p.INFGLLRY {
 	display: none;
     height: 10px;
@@ -33,7 +32,10 @@ p.INFGLLRY {
   p.INFGLLRY {
 	  font-size: 2.75rem;
 	}}
-
+.header.show {
+    position: fixed;
+    top: 0;
+}
 #INFGLLRY.show {
     display: flex;
     position: fixed;
