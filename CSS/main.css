@@ -14,7 +14,7 @@
   src: url("Necto-Mono.woff2") format("woff2"),
        url("Necto-Mono.woff") format("woff");
 }
-p{
+p, figcapture{
     font-family: Necto-Mono,Trebuchet MS,Arial,sans-serif;
 }
 h{
