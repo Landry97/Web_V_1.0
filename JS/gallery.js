@@ -15,11 +15,11 @@ function openLightbox() {
 var mq = window.matchMedia( "(max-width: 950px)" );
 if (mq.matches) {
   document.getElementById('menu-toggle').style.display = 'none';
-  x.removeListener(myFunction)
+  x.removeListener(scale)
 }
 };
 function closeLightbox() {
-   x.addListener(myFunction)
+   x.addListener(scale)
   document.getElementById('headerid').style.position = '';
   document.getElementById('headerid').style.height = '';
   document.getElementById('headerid').style.top = '0';
