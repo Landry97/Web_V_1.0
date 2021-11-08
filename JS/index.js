@@ -11,12 +11,10 @@ mouseTarget.addEventListener('mouseenter', function(){
  info4.style.opacity = "1";
  info5.style.opacity = "1";
  document.getElementById("bodyid").style.background = "black";
- document.getElementById("bodyid").style.color = "white";
  document.getElementById("headerindex").style.color = "white";
 })
 mouseTarget.addEventListener('mouseleave', function(){
  document.getElementById("bodyid").style.background = "";
- document.getElementById("bodyid").style.color = "";
  document.getElementById("headerindex").style.color = "";
  info1.style.opacity = "";
  info2.style.opacity = "";
