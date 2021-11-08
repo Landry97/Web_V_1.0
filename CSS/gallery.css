@@ -223,11 +223,11 @@ width: 100%;
   } 
 .close {
     color: black;
-    height: 3.5rem;
+    height: 3rem;
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     padding: 0 1rem 0 0;
     z-index: 505;
