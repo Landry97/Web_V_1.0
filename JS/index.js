@@ -12,12 +12,12 @@ mouseTarget.addEventListener('mouseenter', function(){
  info5.style.opacity = "1";
  document.getElementById("bodyid").style.background = "black";
  document.getElementById("bodyid").style.color = "white";
- document.getElementById("headerid").style.color = "white";
+ document.getElementById("mouseTarget").style.color = "white";
 })
 mouseTarget.addEventListener('mouseleave', function(){
  document.getElementById("bodyid").style.background = "";
  document.getElementById("bodyid").style.color = "";
- document.getElementById("headerid").style.color = "";
+ document.getElementById("mouseTarget").style.color = "";
  info1.style.opacity = "";
  info2.style.opacity = "";
  info3.style.opacity = "";
