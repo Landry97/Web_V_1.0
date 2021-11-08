@@ -223,6 +223,7 @@ width: 100%;
   } 
 .close {
     color: black;
+    height: 3.5rem;
     position: absolute;
     top: 0;
     right: 0;
@@ -230,10 +231,10 @@ width: 100%;
     font-weight: bold;
     padding: 0 1rem 0 0;
     z-index: 505;
+    display:flex;
     text-align: center; 
     justify-content: center;
     align-items: center;
-    height: 3.5rem;
 }
   .close:hover,
   .close:focus {
