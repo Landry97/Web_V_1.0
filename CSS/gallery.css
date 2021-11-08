@@ -221,19 +221,19 @@ width: 100%;
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
   } 
- .close {
+.close {
     color: black;
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: bold;
     padding: 0 1rem 0 0;
     z-index: 505;
-    height: 3rem;
-    text-align: center;
+    text-align: center; 
     justify-content: center;
     align-items: center;
+    height: 3.5rem;
 }
   .close:hover,
   .close:focus {
