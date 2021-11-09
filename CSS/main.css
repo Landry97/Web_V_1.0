@@ -50,6 +50,12 @@ body{
     font-family: BBBouquet-Regular,Futura,Trebuchet MS,Arial,sans-serif;
     font-size: 1rem;
 }
+footer{
+    font-family: Trebuchet MS;
+}
+header{
+    font-family: Trebuchet MS;
+}
 
 /* HEADER */
 /* WICHTIG: Z-INDEX immer 101 */
