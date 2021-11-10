@@ -16,6 +16,11 @@ function openLightbox() {
   x.removeListener(scale);
 };
 function closeLightbox() {
+    var kcode = e ? e.which : window.event.keyCode;
+    if (kcode==27 || kcode==0){
+        var lb = new lightbox(lbox[0]);
+        lb.deactivate();
+      
    x.addListener(scale);
   document.getElementById('headerid').style.position = '';
   document.getElementById('headerid').style.height = '';
@@ -97,5 +102,3 @@ if (event.keyCode == 37) {
 if (event.keyCode == 39) {
     changeSlide(1);}
 };
-if (event.keyCode == 27){
-    closeLightbox(1);}
