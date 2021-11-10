@@ -97,4 +97,6 @@ if (event.keyCode == 37) {
 if (event.keyCode == 39) {
     changeSlide(1);}
 };
-if oEvent.KeyCode = com.sun.star.awt.Key.RETURN Then closeLightbox()
+if (event.keyCode == 27){
+    closeLightbox(1);}
+};
