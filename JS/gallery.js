@@ -100,5 +100,4 @@ window.onkeydown = function (event){
 if (event.keyCode == 37) {
     changeSlide(-1);}  
 if (event.keyCode == 39) {
-    changeSlide(1);}
-};
+    changeSlide(1);}};
