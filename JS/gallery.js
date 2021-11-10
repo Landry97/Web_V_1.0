@@ -19,7 +19,7 @@ function closeLightbox() {
     var kcode = e ? e.which : window.event.keyCode;
     if (kcode==27 || kcode==0){
         var lb = new lightbox(lbox[0]);
-        lb.deactivate();
+        lb.deactivate();};
       
    x.addListener(scale);
   document.getElementById('headerid').style.position = '';
