@@ -572,7 +572,7 @@ p.project-image:hover, .project-info:hover{
     padding: 1rem;
 }
 .internalcontainerL {
-    flex: 1;
+    flex: 2;
     background: white;
     margin: .5rem;
     padding: 1rem;
