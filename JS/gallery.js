@@ -16,12 +16,7 @@ function openLightbox() {
   x.removeListener(scale);
 };
 function closeLightbox() {
-    var kcode = e ? e.which : window.event.keyCode;
-    if (kcode==27 || kcode==0){
-        var lb = new lightbox(lbox[0]);
-        lb.deactivate();};
-      
-   x.addListener(scale);
+  x.addListener(scale);
   document.getElementById('headerid').style.position = '';
   document.getElementById('headerid').style.height = '';
   document.getElementById('headerid').style.top = '0';
