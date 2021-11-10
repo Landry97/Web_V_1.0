@@ -99,4 +99,3 @@ if (event.keyCode == 39) {
 };
 if (event.keyCode == 27){
     closeLightbox(1);}
-};
