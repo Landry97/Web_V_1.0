@@ -699,6 +699,6 @@ figcaption.project-info1 {
 		margin-left: 3.5%;
 	        margin-right: 3.5%;}
 }
-picture:hover{
+figure.project1:before{
         border: 1px solid black;
     }
