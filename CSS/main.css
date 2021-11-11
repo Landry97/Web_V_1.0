@@ -493,8 +493,8 @@ footer p a {
     color: rgb(219, 10, 10);
 }
 @media screen and (max-width: 440px){
-    #workclass li{
-  transform: rotate(-75deg);
+    #activePage{
+  transform: rotate(-15deg);
   transition: transform 2s;
 }
 p.project-image:hover, .project-info:hover{
