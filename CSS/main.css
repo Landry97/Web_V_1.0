@@ -493,7 +493,7 @@ footer p a {
     color: rgb(219, 10, 10);
 }
 @media screen and (max-width: 440px){
-    #workclass li:hover{
+    #workclass li:active{
   transform: rotate(-75deg);
   transition: transform 2s;
 }
