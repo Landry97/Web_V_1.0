@@ -472,7 +472,7 @@ footer p a {
 }
 
 .project-list{
-    margin-top: 2rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
