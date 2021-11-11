@@ -1,3 +1,6 @@
+.activePage{
+	rotate: 90deg;
+	transform: 2s;}
 a.studiolist{
     color: black;
     text-decoration: none;
