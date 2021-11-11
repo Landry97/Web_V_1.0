@@ -27,7 +27,7 @@ display: flex;
 } 
 figure{ 
 position: relative;
-margin: .65rem 0rem 6rem .65rem;
+margin: .65rem 0rem 4.5rem .65rem;
 } 
 
 body#bodyid.bodyclass.show{
