@@ -3,7 +3,6 @@ a.studiolist{
     text-decoration: none;
     display: block;
 }
-
 /*default text*/
 @font-face {
   font-family: "BBBouquet-Regular";
@@ -491,11 +490,6 @@ footer p a {
 
 #workclass li:hover{
     color: rgb(219, 10, 10);
-}
-@media screen and (max-width: 440px){
-    #activePage{
-  transform: rotate(-15deg);
-  transition: transform 2s;
 }
 p.project-image:hover, .project-info:hover{
     color: rgb(219, 10, 10);
