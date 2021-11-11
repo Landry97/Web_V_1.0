@@ -5,8 +5,8 @@
 body{
 	align-items:center;
 }
-a.infogallery{
-    color: white;
+a.infogallery.show{
+    color: black;
 }
 p.INFGLLRY {
 	display: none;
