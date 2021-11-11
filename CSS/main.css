@@ -1,6 +1,6 @@
 .activePage{
 	transform: rotate(-0.025turn);
-transition: 2s;}
+transition-timing-function: ease;}
 a.studiolist{
     color: black;
     text-decoration: none;
