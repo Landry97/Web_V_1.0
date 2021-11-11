@@ -635,10 +635,6 @@ figure.project1:before{
     }
 }
 
-figure.project1:before{
-        border: 1px solid black;
-    }
-
 @media screen and (max-width: 440px){
     .project1 .project-info1{
         color: transparent;
@@ -703,3 +699,6 @@ figcaption.project-info1 {
 		margin-left: 3.5%;
 	        margin-right: 3.5%;}
 }
+picture:hover{
+        border: 1px solid black;
+    }
