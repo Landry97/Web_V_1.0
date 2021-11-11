@@ -5,7 +5,9 @@
 body{
 	align-items:center;
 }
-
+a.infogallery{
+    color: white;
+}
 p.INFGLLRY {
 	display: none;
     height: 10px;
@@ -75,9 +77,6 @@ a.infogallery{
 }
 p.infogallery.show {
     color: black;
-}
-a.infogallery.show{
-    color: white;
 }
 a.infogallery:hover {
     color: black;
