@@ -434,15 +434,16 @@ transition-timing-function: ease;
     right: 0;
     bottom: 0;
 }
-.project-info p{
+.project-info p {
     position: absolute;
     width: auto;
     min-width: 100%;
     left: 0;
-    padding: 100% .5rem 0 .5rem    
+    padding: 100% .5rem 0 .5rem; 
     text-align: center;
     letter-spacing: .25rem;
 }
+    padding: 100% .5rem 0 .5rem;   
 /* About PAGE LAYOUT */
 .about{
     width: 100%;
