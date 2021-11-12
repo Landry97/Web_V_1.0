@@ -1,9 +1,14 @@
-document.querySelectorAll("img.image-slide").src = 'dataset.src';
+var image1 = document.querySelector('[data-label="image1"] img'),
+    image2 = document.querySelector('[data-label="image2"] img');
+
+document.querySelector('#button').addEventListener('click', function(){
+    image2.src = image1.src;
+});
 
 let slideIndex = 1;
 
 function openLightbox() { 
-   document.querySelectorAll("img.image-slide").src = 'data-src';
+  document.querySelectorAll(".image-slide").src = dataset.src;
   document.getElementById('headerid').style.position = 'fixed';
   document.getElementById('headerid').style.height = '3.5rem';
   document.getElementById('headerid').style.top = '0';
