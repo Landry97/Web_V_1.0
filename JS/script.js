@@ -1,3 +1,21 @@
+var observer = new IntersectionObserver(
+    (entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.intersectionRatio > 0.0) {
+                picture = entry.target;
+                if (!picture.hasAttribute('src')) {
+                    alert('will load the image!!!');
+                    img.setAttribute('src', img.dataset.src);
+                }
+            }
+        });
+    },
+    {}
+)
+for (let img of document.getElementsByTagName('img')) {
+    observer.observe(img);
+}
+
 function scale(x) {
   if (x.matches) { // If media query matches
     document.getElementById('menu-toggle').style.display = 'flex';
