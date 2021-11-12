@@ -1,7 +1,12 @@
+
+
+  var dataSrc = querySelectorAll('imgage-slide').getAttribute('data-src');
+
+  dataSrc = src;
+
 let slideIndex = 1;
 
 function openLightbox() { 
-  document.querySelectorAll(".image-slide").dataset.src = .src;
   document.getElementById('headerid').style.position = 'fixed';
   document.getElementById('headerid').style.height = '3.5rem';
   document.getElementById('headerid').style.top = '0';
