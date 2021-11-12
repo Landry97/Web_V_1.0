@@ -1,11 +1,9 @@
-function lazyload () {  
-   var img = document.querySelectorAll("img.image-slide");
-   img.dataset.src = img.src;
-}
+
 
 let slideIndex = 1;
 
 function openLightbox() { 
+   img.dataset.src = img.src;
   document.getElementById('headerid').style.position = 'fixed';
   document.getElementById('headerid').style.height = '3.5rem';
   document.getElementById('headerid').style.top = '0';
