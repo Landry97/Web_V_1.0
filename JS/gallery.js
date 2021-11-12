@@ -1,6 +1,6 @@
 function lazyload () {  
    var img = document.querySelectorAll("img.image-slide");
-   img.src = img.dataset.src;
+   img.src = img.data-src;
 }
 
 let slideIndex = 1;
