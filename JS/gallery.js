@@ -1,7 +1,9 @@
+
 let slideIndex = 1;
 
 function openLightbox() { 
   document.getElementById('headerid').style.position = 'fixed';
+  document.querySelector('image-slide').getAttribute('data-src')= src;
   document.getElementById('headerid').style.height = '3.5rem';
   document.getElementById('headerid').style.top = '0';
   document.getElementById('headerid').style.zIndex = '100001';
