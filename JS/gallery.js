@@ -1,9 +1,9 @@
-
+document.querySelectorAll("img.image-slide").src = 'dataset.src';
 
 let slideIndex = 1;
 
 function openLightbox() { 
-   img.dataset.src = img.src;
+   document.querySelectorAll("img.image-slide").src = 'dataset.src';
   document.getElementById('headerid').style.position = 'fixed';
   document.getElementById('headerid').style.height = '3.5rem';
   document.getElementById('headerid').style.top = '0';
