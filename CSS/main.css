@@ -2,7 +2,6 @@ a.studiolist{
     display: inline;
     color: black;
     text-decoration: none;
-    display: block;
 }
 /*default text*/
 @font-face {
