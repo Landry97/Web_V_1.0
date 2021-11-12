@@ -1,6 +1,4 @@
 
-document.querySelectorAll('img.image-slide').forEach(img => img.dataset.src = img.src)
-
 function scale(x) {
   if (x.matches) { // If media query matches
     document.getElementById('menu-toggle').style.display = 'flex';
