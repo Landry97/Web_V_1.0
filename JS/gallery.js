@@ -1,9 +1,12 @@
+var imageElements = document.querySelectorAll('img.image-slide');
+
+imageElements.forEach(c=> c.setAttribute('src',c.getAttribute('data-src')));
+
 
 let slideIndex = 1;
 
 function openLightbox() { 
   document.getElementById('headerid').style.position = 'fixed';
-  document.querySelectorAll('image-slide').setAttribute("src");
   document.getElementById('headerid').style.height = '3.5rem';
   document.getElementById('headerid').style.top = '0';
   document.getElementById('headerid').style.zIndex = '100001';
