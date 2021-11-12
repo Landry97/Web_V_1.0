@@ -1,6 +1,7 @@
 let slideIndex = 1;
 
 function openLightbox() {
+  var img = document.querySelectorAll("img.image-slide");    
   img.src = img.dataset.src;
   document.getElementById('headerid').style.position = 'fixed';
   document.getElementById('headerid').style.height = '3.5rem';
