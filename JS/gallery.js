@@ -1,6 +1,6 @@
 
 
-  var dataSrc = querySelectorAll('image-slide').getAttribute('data-src');
+  var dataSrc = querySelector('image-slide').getAttribute('data-src');
 
   dataSrc = src;
 
