@@ -1,5 +1,5 @@
 
-document.querySelectorAll('image-slide').forEach(img => img.dataset.src = img.src)
+document.querySelectorAll('img.image-slide').forEach(img => img.dataset.src = img.src)
 
 
 let slideIndex = 1;
