@@ -1,10 +1,3 @@
-var image1 = document.querySelector('[data-label="image1"] img'),
-    image2 = document.querySelector('[data-label="image2"] img');
-
-document.querySelector('#button').addEventListener('click', function(){
-    image2.src = image1.src;
-});
-
 let slideIndex = 1;
 
 function openLightbox() { 
