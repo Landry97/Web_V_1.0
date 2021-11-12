@@ -1,4 +1,4 @@
-var imageElements = document.querySelectorAll('img.image-slide');
+var imageElements = document.querySelectorAll('image-slide');
 
 imageElements.forEach(c=> c.setAttribute('src',c.getAttribute('data-src')));
 
