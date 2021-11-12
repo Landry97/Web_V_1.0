@@ -1,6 +1,6 @@
 var imageElements = document.querySelectorAll('image-slide');
 
-imageElements.setAttribute('src'),.getAttribute('data-src');
+imageElements.setAttribute('src'),getAttribute('data-src');
 
 
 let slideIndex = 1;
