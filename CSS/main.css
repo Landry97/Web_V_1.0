@@ -9,8 +9,8 @@ a.studiolist{
 /*default text*/
 @font-face {
   font-family: "BBBouquet-Regular";
-  src: url("BBBouquet-Regular.woff2") format("woff2"),
-       url("BBBouquet-Regular.woff") format("woff");
+  src: url("Font/BBBouquet-Regular.woff2") format("woff2"),
+       url("Font/BBBouquet-Regular.woff") format("woff");
 }
 h,h1,h2,h3,h4,h5,h6,a,p,p1,p2,p3,p4,p5,p6,{
     font-family: BBBouquet-Regular,Futura,Trebuchet MS,Arial,sans-serif;
