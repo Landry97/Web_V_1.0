@@ -1,9 +1,3 @@
-
-
-  var dataSrc = querySelector('image-slide').getAttribute('data-src');
-
-  dataSrc = src;
-
 let slideIndex = 1;
 
 function openLightbox() { 
