@@ -1,3 +1,6 @@
+ 
+
+
 /*default web body and pictures*/
 html{
 -webkit-tap-highlight-color: transparent;
@@ -614,4 +617,9 @@ footer{flex-wrap: nowrap;}
 .copyright{margin-left: auto;}
 #myBtn{margin-left: 3.5%;margin-right: 3.5%;}
 .privacy{margin-left: 3.5%;margin-right: 3.5%;}
+}
+
+li.menu-item{ 
+font-size:1.5rem;
+	letter-spacing: .125rem;
 }
