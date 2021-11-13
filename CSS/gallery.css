@@ -138,9 +138,7 @@ a.infogallery:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 92.5%;
     height: 100%;
-    max-height: 92.5%;
   }
 
   div.direction{
@@ -149,13 +147,14 @@ a.infogallery:hover {
     justify-content: center;
     text-align: center;
   }
-  
   .slide {
     display: none;
     justify-content: center;
     align-items: center;
     width: 100%;
+    max-width: 90%;
     height: 100%;
+    max-height: 100%;
   }
   .image-slide {
       width: 90%;
