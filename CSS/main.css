@@ -620,6 +620,6 @@ footer{flex-wrap: nowrap;}
 }
 
 li.menu-item{ 
-font-size:1.5rem;
-	letter-spacing: .125rem;
+font-size:1.25rem;
+	letter-spacing: .0125rem;
 }
