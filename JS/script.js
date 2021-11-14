@@ -1,4 +1,3 @@
-
 function scale(x) {
   if (x.matches) { // If media query matches
     document.getElementById('menu-toggle').style.display = 'flex';
@@ -8,7 +7,6 @@ function scale(x) {
 var x = window.matchMedia("(max-width: 950px)")
 scale(x) // Call listener function at run time
 x.addListener(scale) // Attach listener function on state changes 
-// MENU____ CLICK -> SHOW________________________________________________________________
 const menu = document.getElementById('menu-toggle');
 const menupoint = document.getElementById('menupointid');
 const navUL = document.getElementById('nav-ul');
@@ -23,8 +21,7 @@ menu.addEventListener('click', () => {
       menu.classList.toggle('show');
       menupoint.classList.toggle('show');
 }); 
-//TO TOP BUTTON (working buttom flex right corner start 15pixel)_________________________
-//[Get the button:]
+//TO TOP BUTTON
 mybutton = document.getElementById("myBtn");
 // [When the user scrolls down 20px from the top of the document, show the button]
 window.onscroll = function() {scrollFunction()};
