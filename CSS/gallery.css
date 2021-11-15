@@ -26,9 +26,16 @@ div.direction{display: flex;align-items: center;justify-content: center;text-ali
 .slide{display: none;justify-content: center;align-items: center;width: 100%;max-width: 90%;height: 100%;max-height: 100%;}
 .image-slide{display: flex;justify-content: center;align-items: center;width: 100%;max-width: 90%;height: 100%;max-height: 95%;-o-object-fit: contain;object-fit: contain;}
 .modal-preview{width: auto;}
-div.dots{position: absolute;bottom: 1rem;right: 1rem;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: auto;grid-gap: 0.15rem;cursor: pointer;}
-div.dot{position: relative;padding: 0.4rem;cursor: pointer;}
-img.dot{position: absolute;left: 0;top: 0;width: auto;height: 100%;}img.dot:hover{background-color: black; opacity: .5;}
+div.dots{position: fixed;bottom: 1rem;right: 1rem;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: auto;grid-gap: 0.15rem;cursor: pointer;}
+div.dot {
+  position: relative;
+  margin: 0.125rem;
+  cursor: pointer;
+  width: 7px;
+  height: 7px;
+  border-radius: 3.5px;
+  background-color: black;}
+  div.dot:hover{background-color: rgb(219, 10, 10);}
 img.preview,img.modal-preview{opacity: 1;}
 @media screen and (max-width:440px){img.preview{width: 100%;}}
 img.active,.preview:hover,.modal-preview:hover{opacity: 0.8;}  
