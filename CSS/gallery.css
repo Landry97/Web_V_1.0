@@ -28,9 +28,7 @@ div.direction{display: flex;align-items: center;justify-content: center;text-ali
 .modal-preview{width: auto;}
 div.dots{position: fixed;bottom: 1rem;right: 1rem;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: auto;grid-gap: 0.15rem;cursor: pointer;}
 div.dot {
-  position: relative;
-  margin: .125rem;
-  padding: .1rem;
+  margin: .25rem;
   cursor: pointer;
   width: 7px;
   height: 7px;
