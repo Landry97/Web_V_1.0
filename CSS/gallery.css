@@ -30,9 +30,9 @@ div.dots{position: fixed;bottom: 1rem;right: 1rem;display: grid;grid-template-co
 div.dot {
   margin: .21rem;
   cursor: pointer;
-  width: .07rem;
-  height: .07rem;
-  border-radius: .035rem;
+  width: .5rem;
+  height: .5rem;
+  border-radius: .25rem;
   background-color: black;}
   div.dot:hover{background-color: rgb(219, 10, 10);}
 img.preview,img.modal-preview{opacity: 1;}
