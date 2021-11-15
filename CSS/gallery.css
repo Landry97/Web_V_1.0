@@ -28,11 +28,11 @@ div.direction{display: flex;align-items: center;justify-content: center;text-ali
 .modal-preview{width: auto;}
 div.dots{position: fixed;bottom: 1rem;right: 1rem;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-template-rows: auto;grid-gap: 0.15rem;cursor: pointer;}
 div.dot {
-  margin: .25rem;
+  margin: .21rem;
   cursor: pointer;
-  width: 7px;
-  height: 7px;
-  border-radius: 3.5px;
+  width: .07rem;
+  height: .07rem;
+  border-radius: .035rem;
   background-color: black;}
   div.dot:hover{background-color: rgb(219, 10, 10);}
 img.preview,img.modal-preview{opacity: 1;}
