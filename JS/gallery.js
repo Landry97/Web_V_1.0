@@ -15,6 +15,13 @@ function openLightbox() {
   document.getElementsByTagName("Footer")[0].style.display = "none";
   document.getElementById('menu-toggle').style.display = 'none';
   x.removeListener(scale);
+var dots = window.matchMedia( "(min-width: 350px)" );
+if (dots.matches) {
+  document.getElementById('dots').style.display = 'grid';
+}
+else {
+  document.getElementById('dots').style.display = 'none';
+}
 };
 function closeLightbox() {
   x.addListener(scale);
