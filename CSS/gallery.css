@@ -34,7 +34,7 @@ div.dot {
     height: .5em;
     border-radius: .25em;
     background-color: black;}
-  div.dot:hover{background-color: rgb(219, 10, 10);}
+  div.dot:hover,div.dot:active{background-color: rgb(219, 10, 10);}
 img.preview,img.modal-preview{opacity: 1;}
 @media screen and (max-width:440px){img.preview{width: 100%;}}
 img.active,.preview:hover,.modal-preview:hover{opacity: 0.8;}  
