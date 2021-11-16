@@ -55,6 +55,7 @@ function toSlide(n) {
 function showSlide(n) {
   const slides = document.getElementsByClassName('slide');
   let modalPreviews = document.getElementsByClassName('modal-preview');
+  let dots = document.getElementsByClassName('dot');
 
   if (n > slides.length) {
     slideIndex = 1;	
@@ -70,6 +71,7 @@ function showSlide(n) {
   
   for (let i = 0; i < modalPreviews.length; i++) {
     modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
+    dots[i].className = dots[i].className.replace(' active', '');
   };
   
   slides[slideIndex - 1].style.display = 'flex';
