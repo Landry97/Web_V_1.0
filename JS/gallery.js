@@ -77,7 +77,7 @@ function showSlide(n) {
   };
   
   slides[slideIndex - 1].style.display = 'flex';
-  dots[slideIndex - 1].style.background = "red";
+  dots[slideIndex - 1].style.background = "rgb(219, 10, 10)";
 };
 
   overlayShown = false,
