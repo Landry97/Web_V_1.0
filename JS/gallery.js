@@ -67,6 +67,7 @@ function showSlide(n) {
 
   for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
+    dots[i].style.background = "black";
   };
   
   for (let i = 0; i < modalPreviews.length; i++) {
@@ -75,6 +76,7 @@ function showSlide(n) {
   };
   
   slides[slideIndex - 1].style.display = 'flex';
+  dots[i].style.background = "red";
 };
 
   overlayShown = false,
