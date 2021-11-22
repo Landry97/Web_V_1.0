@@ -81,7 +81,7 @@ function showSlide(n) {
   dots[slideIndex - 1].style.opacity = ".7";
   dots[slideIndex - 1].style.display = "none";
   
-  dots[slideIndex - 2].style.display = "none";
+  dots[slideIndex - n].style.display = "none";
 };
 
   overlayShown = false,
