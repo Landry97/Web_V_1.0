@@ -70,20 +70,19 @@ function showSlide(n) {
     slides[i].style.display = "none";
     dots[i].style.background = "black";
     dots[i].style.opacity = "1";
+    dots[i].style.display = 'none';
   };
-  for (let i = 7; i < slides.length; i++) {
+  for (let i = 0; i > slides.length; i++) {
     dots[i].style.display = 'grid';
   };
-  
   for (let i = 0; i < modalPreviews.length; i++) {
     modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
     dot[i].className = dot[i].className.replace(' active', '');
   };
-  
+  dots[i].style.display = 'grid';
   slides[slideIndex - 1].style.display = 'flex';
   dots[slideIndex - 1].style.background = "rgb(219, 10, 10)";
   dots[slideIndex - 1].style.opacity = ".7";
-  dots[slideIndex - 1].style.display = 'none';
 };
 
   overlayShown = false,
