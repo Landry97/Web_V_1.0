@@ -66,13 +66,13 @@ function showSlide(n) {
     slideIndex = slides.length;
   };
 
-  for (let i = 0; i < slides.length; i++) {
+  for ( i < slides.length; i++) {
     slides[i].style.display = "none";
     dots[i].style.background = "black";
     dots[i].style.opacity = "1";
     dots[i].style.display = 'none';
   };
-  for (let i = 0; i > slides.length; i++) {
+  for ( i > slides.length; i++) {
     dots[i].style.display = 'grid';
   };
   for (let i = 0; i < modalPreviews.length; i++) {
