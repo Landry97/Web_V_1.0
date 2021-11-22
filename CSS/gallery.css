@@ -44,7 +44,9 @@ div.dot {
  letter-spacing: .15rem;
  color: black;    
 }
-.directiontext:hover{
+.nex:hover{
+ color:  rgb(219, 10, 10);  
+}.prev:hover{
  color:  rgb(219, 10, 10);  
 }
 .prev {
@@ -52,14 +54,14 @@ div.dot {
     position: fixed;
     left: 0;
     top: 5rem;
-    padding: 3vh 44vw 60vh 1rem;
+    padding: 0 44vw 60vh 1rem;
     text-decoration: none;
 }
 .nex {
     position: fixed;
     right: 0;
     top: 5rem;
- padding: 3vh 1rem 60vh 44vw;
+ padding: 0 1rem 60vh 44vw;
     text-decoration: none;
 
 }
