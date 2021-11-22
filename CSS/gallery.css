@@ -47,19 +47,19 @@ div.dot {
 .directiontext:hover{
  color:  rgb(219, 10, 10);  
 }
-.prev{z-index: -10;
+.prev {
+    /* z-index: -10; */
     position: fixed;
     left: 0;
     top: 5rem;
- padding: 35vh 44vw 35vh 1rem;
+    padding: 3vh 44vw 60vh 1rem;
     text-decoration: none;
 }
 .nex {
-    z-index: -10;
     position: fixed;
     right: 0;
     top: 5rem;
- padding: 35vh 1rem 35vh 44vw;
+ padding: 3vh 1rem 60vh 44vw;
     text-decoration: none;
 
 }
