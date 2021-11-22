@@ -53,14 +53,14 @@ div.dot {
     /* z-index: -10; */
     position: fixed;
     left: 0;
-    top: 4.15rem;
+    top: 4rem;
     padding: 0 44vw 60vh 1rem;
     text-decoration: none;
 }
 .nex {
     position: fixed;
     right: 0;
-    top: 4.15rem;
+    top: 4rem;
  padding: 0 1rem 60vh 44vw;
     text-decoration: none;
 
