@@ -82,7 +82,6 @@ function showSlide(n) {
   };
   let x = dots.length; 
   dots[x].style.display = "none";
-};
 
   overlayShown = false,
   overlayScrollListener = null,
