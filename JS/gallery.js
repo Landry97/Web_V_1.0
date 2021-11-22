@@ -84,7 +84,7 @@ function showSlide(n) {
   dots[slideIndex - y].style.display = "none"
   };
 
-  let y = dot.length; 
+  let y = dots.length; 
 
   overlayShown = false,
   overlayScrollListener = null,
