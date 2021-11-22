@@ -66,13 +66,10 @@ function showSlide(n) {
     slideIndex = slides.length;
   };
 
-  for ( i < slides.length; i++) {
+  for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
     dots[i].style.background = "black";
     dots[i].style.opacity = "1";
-    dots[i].style.display = 'none';
-  };
-  for ( i > slides.length; i++) {
     dots[i].style.display = 'grid';
   };
   for (let i = 0; i < modalPreviews.length; i++) {
@@ -82,7 +79,7 @@ function showSlide(n) {
   slides[slideIndex - 1].style.display = 'flex';
   dots[slideIndex - 1].style.background = "rgb(219, 10, 10)";
   dots[slideIndex - 1].style.opacity = ".7";
-  dots[slideIndex - 1].style.display = "grid";
+  dots[slideIndex - 1].style.display = "none";
 };
 
   overlayShown = false,
