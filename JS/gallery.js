@@ -79,9 +79,7 @@ function showSlide(n) {
   slides[slideIndex - 1].style.display = 'flex';
   dots[slideIndex - 1].style.background = "rgb(219, 10, 10)";
   dots[slideIndex - 1].style.opacity = ".7";
-  };
-let x = slides.length; x++; {
-  dots[slideIndex - x].style.display = "none";
+  dots[slideIndex - slides.length].style.display = "none";
 };
 
   overlayShown = false,
