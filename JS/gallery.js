@@ -82,7 +82,6 @@ function showSlide(n) {
   dots[slideIndex - 1].style.opacity = ".7";
   dots[slideIndex - x].style.display = "none";
 };
-};
 
   overlayShown = false,
   overlayScrollListener = null,
