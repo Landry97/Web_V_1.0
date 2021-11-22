@@ -80,7 +80,7 @@ function showSlide(n) {
   dots[slideIndex - 1].style.background = "rgb(219, 10, 10)";
   dots[slideIndex - 1].style.opacity = ".7";
   };
- for (let x = slides.length; i++;) {
+ for (let x = slides.length; x++;) {
   dots[slideIndex - x].style.display = "none";
 };
 
