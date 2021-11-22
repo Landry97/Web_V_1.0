@@ -66,6 +66,8 @@ div.dot {
 
 }
 
+@media screen and (max-height:450px){.directiontext{display: none;}}
+
   div.dot:hover,div.dot:active{background: rgb(219, 10, 10);}
 img.preview,img.modal-preview{opacity: 1;}
 @media screen and (max-width:440px){img.preview{width: 100%;}}
