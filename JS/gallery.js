@@ -83,8 +83,8 @@ function showSlide(n) {
   dots[slideIndex - 1].style.opacity = ".7";
   dots[slideIndex - y].style.display = "none"
   };
-
-  let y = dots.length; 
+const dotzz = document.getElementsByClassName('dots');
+  let y = dotzz.length; 
 
   overlayShown = false,
   overlayScrollListener = null,
