@@ -45,16 +45,12 @@ div.dot {
  color: black;
       
 }
-.prev{
- position: absolute;
- top:5rem;
- left:2.5rem;
-      
+.prev{position: fixed;left: 0; top:5rem;padding: 1rem 1.5rem;bottom: 0;text-decoration: none;
+
 }
 .nex{
- position: absolute;
+position: fixed;right: 0; top:5rem;padding: 1rem 1.5rem;bottom: 0;text-decoration: none;
  top:5rem;
- right:2.5rem;
       
 }
 
