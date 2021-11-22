@@ -70,6 +70,7 @@ function showSlide(n) {
     slides[i].style.display = "none";
     dots[i].style.background = "black";
     dots[i].style.opacity = "1";
+  dots[i].style.display = 'grid';
   };
   
   for (let i = 0; i < modalPreviews.length; i++) {
