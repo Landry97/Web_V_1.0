@@ -79,10 +79,10 @@ function showSlide(n) {
     modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
     dot[i].className = dot[i].className.replace(' active', '');
   };
-  dots[i].style.display = 'grid';
   slides[slideIndex - 1].style.display = 'flex';
   dots[slideIndex - 1].style.background = "rgb(219, 10, 10)";
   dots[slideIndex - 1].style.opacity = ".7";
+  dots[slideIndex - 1].style.display = "grid";
 };
 
   overlayShown = false,
