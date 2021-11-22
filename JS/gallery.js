@@ -57,8 +57,7 @@ function showSlide(n) {
   let modalPreviews = document.getElementsByClassName('modal-preview');
   const dot = document.getElementsByClassName('dots');
   let dots = document.getElementsByClassName('dot');
-  let y = dot.length; 
-  dot[y].style.display = "none";
+
 
   if (n > slides.length) {
     slideIndex = 1;	
