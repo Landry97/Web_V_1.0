@@ -82,8 +82,8 @@ function showSlide(n) {
   dots[slideIndex - 1].style.background = "rgb(219, 10, 10)";
   dots[slideIndex - 1].style.opacity = ".7";
   };
-  let y = dots.length; 
-  dots[y].style.display = "none";
+  let y = dot.length; 
+  dot[y].style.display = "none";
 
   overlayShown = false,
   overlayScrollListener = null,
