@@ -42,16 +42,26 @@ div.dot {
 }
 .directiontext{
  letter-spacing: .15rem;
- color: black;
-      
+ color: black;    
 }
-.prev{position: fixed;left: 0; top:5rem;padding: 1rem 1.5rem;bottom: 0;text-decoration: none;
+.directiontext:hover{
+ color:  rgb(219, 10, 10);  
+}
+.prev{z-index: -10;
+    position: fixed;
+    left: 0;
+    top: 5rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+}
+.nex {
+    z-index: -10;
+    position: fixed;
+    right: 0;
+    top: 5rem;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
 
-}
-.nex{
-position: fixed;right: 0; top:5rem;padding: 1rem 1.5rem;bottom: 0;text-decoration: none;
- top:5rem;
-      
 }
 
   div.dot:hover,div.dot:active{background: rgb(219, 10, 10);}
