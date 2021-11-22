@@ -71,7 +71,7 @@ function showSlide(n) {
     dots[i].style.background = "black";
     dots[i].style.opacity = "1";
   };
-  for (let i = 1; i < slides.length; i++) {
+  for (let i = 7; i < slides.length; i++) {
     dots[i].style.display = 'grid';
   };
   
