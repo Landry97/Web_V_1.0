@@ -1,7 +1,3 @@
-User-agent: Googlebot
-Disallow: /*.pdf
-Disallow: /*.xls
-
 Sitemap: https://www.leonlandry.com/index.html
 Sitemap: https://www.leonlandry.com/allprojects.html
 Sitemap: https://www.leonlandry.com/about.html
