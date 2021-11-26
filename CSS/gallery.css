@@ -57,7 +57,7 @@ div.dot {
     padding: 0 44vw 60vh 1rem;
     text-decoration: none;
 }
-p.previous{cursor: pointer;
+p.textprev{cursor: pointer;
 }
 .nex {
     position: fixed;
@@ -66,7 +66,7 @@ p.previous{cursor: pointer;
  padding: 0 1rem 60vh 44vw;
     text-decoration: none;
 }
-p.next{cursor: pointer;
+p.textnex{cursor: pointer;
 }
 
 @media screen and (max-height:450px){.directiontext{color: transparent;}.nex:hover,.prev:hover{color: transparent;}}
