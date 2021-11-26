@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?> 
-<urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.leonlandry.com/sitemaps.xml">
   <url>
     <loc>https://www.leonlandry.com/index.html</loc>
     <changefreq>daily</changefreq>
