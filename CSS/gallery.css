@@ -44,9 +44,10 @@ div.dot {
  letter-spacing: .15rem;
  color: black;
 }
-.nex:hover{
+p.textnex:hover{
  color:  rgb(219, 10, 10);  
-}.prev:hover{
+}
+p.textprev:hover{
  color:  rgb(219, 10, 10);  
 }
 .prev {
