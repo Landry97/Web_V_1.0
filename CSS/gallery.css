@@ -42,7 +42,8 @@ div.dot {
 }
 .directiontext{
  letter-spacing: .15rem;
- color: black;    
+ color: black;
+ cursor: pointer;
 }
 .nex:hover{
  color:  rgb(219, 10, 10);  
