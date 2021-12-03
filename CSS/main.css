@@ -39,7 +39,7 @@ address div p a{font-size: 1.25rem;text-decoration: none;text-decoration-style: 
 #address.show li a{color: black;}
 .workclass{ display: flex;justify-content: center;}
 main{display: flex;justify-content: center;background-color: transparent;height: auto;width: 100%;color: black;letter-spacing: .1rem;padding-left:.75rem;padding-right:.75rem;}
-main ul{display: flex;flex-direction: row;flex-wrap: wrap;align-content:center;align-items: center;text-align: center }
+main ul{display: flex;flex-direction: row;flex-wrap: wrap;align-content:center;align-items: center;text-align: center; margin-top:1rem; }
 main ul li{display: block;padding: 1rem 2rem 1rem 2rem;list-style-type: none;}
 main ul li:hover{list-style-type: circle;rgb(219, 10, 10);}
 .footer-wrapper{height: auto;min-height: 20vh;display: flex;align-content: flex-end;} 
