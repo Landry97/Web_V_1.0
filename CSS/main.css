@@ -38,9 +38,9 @@ address div p a{font-size: 1.25rem;text-decoration: none;text-decoration-style: 
 #address.show{transform: translateY(100%);color: black;background-color: rgb(219, 10, 10);display: flex;flex-direction: column;flex-wrap: nowrap;align-items: center;justify-content: center;align-content: center;text-decoration: none;height: auto;width: 55%;margin-top: auto;margin-bottom: 80%;}
 #address.show li a{color: black;}
 .workclass{ display: flex;justify-content: center;}
-main{display: flex;justify-content: center;background-color: transparent;height: auto;width: 100%;color: black;letter-spacing: .1rem;padding-left:.75rem;padding-right:.75rem;}
+main{display: flex;justify-content: center;background-color: transparent;height: auto;width: 100%;color: black;letter-spacing: .1rem;padding-left:1.75rem;padding-right:1.75rem;}
 main ul{display: flex;flex-direction: row;flex-wrap: wrap;align-content:center;align-items: center;text-align: center }
-main ul li{display: block;padding: 1.5rem;list-style-type: none;}
+main ul li{display: block;padding: 1rem;list-style-type: none;}
 main ul li:hover{list-style-type: circle;rgb(219, 10, 10);}
 .footer-wrapper{height: auto;min-height: 20vh;display: flex;align-content: flex-end;} 
 footer{margin-top: auto;color: white;display: flex;flex-direction: row;width: 100%;padding-top: 5rem;padding-bottom: 3rem;padding-left: 2.5rem;letter-spacing: .1rem;font-size: .75em;}
