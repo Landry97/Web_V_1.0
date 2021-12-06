@@ -72,11 +72,15 @@ p.textprev{cursor: pointer;
     position: fixed;
     right: 0;
     top: 4rem;
- padding: 0 1rem 60vh 44vw;
+ margin: 0 0rem 60vh 44vw;
+ padding: 0 1rem 0 0;
     text-decoration: none;
+ background: black;
+ color: white;
 }
 p.textnex{cursor: pointer;
 }
+
 
 @media screen and (max-height:450px){.directiontext{color: transparent;}.nex:hover,.prev:hover{color: transparent;}}
 
