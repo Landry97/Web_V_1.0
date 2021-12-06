@@ -69,7 +69,7 @@ function showSlide(n) {
   document.getElementById('again').style.display = 'none';
   document.getElementById('next').style.display = 'flex';
   };
-  if (n = 1) {
+  if (n = 0) {
   document.getElementById('again').style.display = 'none';
   document.getElementById('next').style.display = 'flex';
   };
