@@ -61,6 +61,8 @@ function showSlide(n) {
 
   if (n > slides.length) {
     slideIndex = 1;	
+  document.getElementById('again').style.display = 'none';
+  document.getElementById('next').style.display = 'flex';
   };
   
   if (n > slides.length-1) {
