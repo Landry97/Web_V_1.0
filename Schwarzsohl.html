@@ -30,12 +30,12 @@
       <a rel="about" href="https://leonlandry.com/about.html">About</a>
     </li>
   </ul>
-  <address id="address" class="studio-address-on-mobile">
-    <div class="text typo-sans typo-medium">
+  <address id="address" class="on-mobile">
+    <div>
       <p>
         Leon Landry<br>
-        Glockenstrasse 67  <span class="menu-bullet"></span><br>
-        Kaiserslautern <span class="menu-bullet"></span> 
+        Glockenstrasse 67  <span class="bullet"></span><br>
+        Kaiserslautern <span class="bullet"></span> 
       </p>
       <p>
         <a href="tel:+">+4917647621147</a><br>
@@ -132,9 +132,10 @@
 <section id="layer"></section>
     </div>
     
-    <div class="directiontext">
+     <div class="directiontext">
       <a class="prev" onclick="changeSlide(-1)"><p class="textprev">PREV</p></a>
-      <a class="nex" onclick="changeSlide(1)"><p class="textnex">NEXT</p></a>
+      <a id="next" class="nex" onclick="changeSlide(1)"><p class="textnex">NEXT</p></a>
+      <a id="again" class="again" onclick="changeSlide(1)"><p class="textnex">AGAIN</p></a>
     </div>
 
     <!-- LIGHTBOX: DOTS -->
