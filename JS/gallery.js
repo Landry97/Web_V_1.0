@@ -61,14 +61,16 @@ function showSlide(n) {
 
   
   
-  if (n > 1) {
-  document.getElementById('again').style.display = 'none';
-  document.getElementById('next').style.display = 'flex';
-  };
+  
   
   if (n > slides.length-1) {
   document.getElementById('again').style.display = 'flex';
   document.getElementById('next').style.display = 'none';
+  };
+  
+  if (n > 1) {
+  document.getElementById('again').style.display = 'none';
+  document.getElementById('next').style.display = 'flex';
   };
   
   if (n > slides.length) {
