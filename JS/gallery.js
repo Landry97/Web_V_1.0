@@ -72,8 +72,9 @@ function showSlide(n) {
   };
   
   if (n = slides.length) {	
-  document.getElementById('again').style.display = 'none';
-  document.getElementById('next').style.display = 'flex';
+    slideIndex = slides.length;
+  document.getElementById('again').style.display = 'flex';
+  document.getElementById('next').style.display = 'none';
   };
  
   if (n > slides.length) {
