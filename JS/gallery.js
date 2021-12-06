@@ -75,6 +75,10 @@ function showSlide(n) {
   document.getElementById('again').style.display = 'none';
   document.getElementById('next').style.display = 'flex';
   };
+  if (n > 1) {
+  document.getElementById('again').style.display = 'none';
+  document.getElementById('next').style.display = 'flex';
+  };
 
   for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
