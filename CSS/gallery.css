@@ -73,7 +73,7 @@ p.textprev{cursor: pointer;
     right: 0;
     top: 4rem;
  margin: 0 0rem 60vh 44vw;
- padding: 0 1rem 0 0;
+ padding: 0.5rem 1rem 0.5rem 0.5rem;
     text-decoration: none;
  background: black;
  color: white;
