@@ -61,10 +61,12 @@ function showSlide(n) {
 
   if (n > slides.length) {
     slideIndex = 1;	
+  document.getElementById('again').style.display = 'flex';
   };
   
   if (n < 1) {
     slideIndex = slides.length;
+  document.getElementById('again').style.display = 'none';
   };
 
   for (let i = 0; i < slides.length; i++) {
