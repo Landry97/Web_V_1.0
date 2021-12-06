@@ -24,8 +24,12 @@ nav.menu ul{display: flex;height: 100%;width: 100%;}nav.menu ul li{padding-left:
 nav.menu{background-size: 1rem 1rem;bottom: 0;height: 100%;position: absolute;width: 100%;z-index: 101;}
 address{display: none;font-size: 1.25rem;text-decoration: none;text-decoration-style: none;color: black;letter-spacing: .3rem;width: 100ch;height: auto;width: 100%;}
 address div p a{font-size: 1.25rem;text-decoration: none;text-decoration-style: none;color: black;align-content: center;text-align: center;align-items: center;}
+
 #address.studio-address-on-mobile{font-size: 0.6rem;}
 #address.studio-address-on-mobile p a{font-size: .6rem;}
+#address.on-mobile{font-size: 0.6rem;}
+#address.on-mobile p a{font-size: .6rem;}
+
 #menupointid.show{background: url("black-cross.png") no-repeat;background-size: 100%;background-color: transparent;height: 1.05rem;width: 1.05rem;} 
 #menu.show{display: none;}
 #navMenu.show{left: 0;right: 0;top: 0; bottom: 0;font-size: 1.75rem;letter-spacing: .6rem;min-width: 100vw;width: 100%;min-height: 100vh;display: flex;flex-direction: column;align-content: center;align-items: center;z-index: 101;background-color: rgb(219, 10, 10);}
