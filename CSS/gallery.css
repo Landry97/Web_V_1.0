@@ -67,6 +67,14 @@ p.textprev{cursor: pointer;
  padding: 0 1rem 60vh 44vw;
     text-decoration: none;
 }
+.again {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 4rem;
+ padding: 0 1rem 60vh 44vw;
+    text-decoration: none;
+}
 p.textnex{cursor: pointer;
 }
 
