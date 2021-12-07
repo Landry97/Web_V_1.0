@@ -50,6 +50,9 @@ p.textnex:hover{
 p.textprev:hover{
  color:  rgb(219, 10, 10);  
 }
+p.textag:hover{
+ background:  rgb(219, 10, 10);  
+}
 .prev {
     /* z-index: -10; */
     position: fixed;
