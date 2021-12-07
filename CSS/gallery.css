@@ -62,7 +62,7 @@ p.textag:hover{
     text-decoration: none;
 }
 p.textprev{cursor: pointer;
-padding: .5rem 1rem .5rem .5rem;
+padding: .5rem 0 .5rem 0;
 }
 .nex {
     position: fixed;
@@ -80,7 +80,7 @@ padding: .5rem 1rem .5rem .5rem;
  text-decoration: none;
 }
 p.textnex{cursor: pointer;
-padding: .5rem 1rem .5rem .5rem;
+padding: .5rem 0 .5rem 0;
 }
 p.textag{cursor: pointer;
 padding: .5rem 1rem .5rem .5rem;
