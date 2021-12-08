@@ -15,7 +15,7 @@ header{position: relative;display: flex;background-color: transparent;flex-direc
 .header-title {position: relative;display: flex;align-content: center;text-align: center;align-items: center;justify-content: center;text-transform: uppercase;z-index: 1000;height: 3.5rem;font-weight: lighter;letter-spacing: .6em;}
 .header-title a span{color: black;font-size: 1.25rem;height: 100%;text-align: center;box-sizing:border-box;display: block;float: none;line-height: normal;position: static;z-index: auto;}
 .header-title p{color: black;text-decoration: none;list-style-type: none;}nav .menu{display: flex;flex: 1;}
-.header-title a{text-decoration: none;list-style-type: none;letter-spacing: 2.5%;text-decoration: none;padding-top: 1em;padding-bottom: 1em;}
+.header-title a{text-decoration: none;list-style-type: none;letter-spacing: .1rem;text-decoration: none;padding-top: 1em;padding-bottom: 1em;}
 p.menupoint{height: 8px;position: absolute;text-indent: -100rem;width: 8px;border-radius: 8px;cursor: pointer;z-index: 1000;background-color: black;}
 .menu-toggle{display: none;position: absolute;left: 0;text-indent: -100rem;width: 3em;padding-top: 1em;padding-bottom: 1em;align-items: center;justify-content: center;justify-items: center;}
 nav.menu li{display: flex;align-content: center;text-align: center;align-items: center;flex-direction: row;letter-spacing: .3rem;padding-right: 4rem;padding-left: 4rem;}
@@ -99,4 +99,4 @@ figcaption.project-info1{position: absolute;top: 0;left: 0;padding-left: 5%;marg
 @media (max-width: 750px){figure.project1{width: 36vw;padding:0;}}
 @media (min-width: 750px){figure.project1{width: 36vh;height: 36vh;}}
 @media (min-width: 600px){footer{flex-wrap: nowrap;}.copyright{margin-left: auto;}#myBtn{margin-left: 3.5%;margin-right: 3.5%;}.privacy{margin-left: 3.5%;margin-right: 3.5%;}}
-li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter-spacing: 2.5%;}
+li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter-spacing: .1rem;}
