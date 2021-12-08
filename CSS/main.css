@@ -15,7 +15,7 @@ header{position: relative;display: flex;background-color: transparent;flex-direc
 .header-title {position: relative;display: flex;align-content: center;text-align: center;align-items: center;justify-content: center;text-transform: uppercase;z-index: 1000;height: 3.5rem;font-weight: lighter;letter-spacing: .6em;}
 .header-title a span{color: black;font-size: 1.25rem;height: 100%;text-align: center;box-sizing:border-box;display: block;float: none;line-height: normal;position: static;z-index: auto;}
 .header-title p{color: black;text-decoration: none;list-style-type: none;}nav .menu{display: flex;flex: 1;}
-.header-title a{text-decoration: none;list-style-type: none;letter-spacing: .15em;text-decoration: none;padding-top: 1em;padding-bottom: 1em; font-size: 2.25rem;}
+.header-title a{text-decoration: none;list-style-type: none;letter-spacing: .45em;text-decoration: none;padding-top: 1em;padding-bottom: 1em; font-size: 2.25rem;}
 p.menupoint{height: 8px;position: absolute;text-indent: -100rem;width: 8px;border-radius: 8px;cursor: pointer;z-index: 1000;background-color: black;}
 .menu-toggle{display: none;position: absolute;left: 0;text-indent: -100rem;width: 3em;padding-top: 1em;padding-bottom: 1em;align-items: center;justify-content: center;justify-items: center;}
 nav.menu li{display: flex;align-content: center;text-align: center;align-items: center;flex-direction: row;letter-spacing: .3rem;padding-right: 4rem;padding-left: 4rem;}
