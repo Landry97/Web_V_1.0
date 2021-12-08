@@ -120,26 +120,11 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
     .project-list{ 
         --num-cols: 3;}}
 
-.visible-scrollbar, .invisible-scrollbar, .mostly-customized-scrollbar {
+.visible-scrollbar, .invisible-scrollbar {
   display: block;
   width: 10em;
   overflow: auto;
-  height: 2em;
 }
-
 .invisible-scrollbar::-webkit-scrollbar {
   display: none;
-}
-
-/* Demonstrate a "mostly customized" scrollbar
- * (won't be visible otherwise if width/height is specified) */
-.mostly-customized-scrollbar::-webkit-scrollbar {
-  width: 5px;
-  height: 8px;
-  background-color: #aaa; /* or add it to the track */
-}
-
-/* Add a thumb */
-.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
-    background: #000;
 }
