@@ -110,4 +110,4 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
         display: grid; 
         grid-template-columns: repeat(var(--num-cols),1fr); 
         grid-auto-rows: var(--row-height); gap: var(--gap); } 
-   figure.project1{width: 100%;height: 100%;}}
+   figure.project1{width: 100%;height: 100%;object-fit: cover;}}
