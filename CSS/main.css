@@ -102,7 +102,7 @@ figcaption.project-info1{position: absolute;top: 0;left: 0;padding-left: 5%;marg
 li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter-spacing: .1rem;}
 @media (min-width: 1350px){
     .project-list{ 
-        width: 85vw
+        width: 85vw;
         --gap: .5rem; 
         --num-cols: 3; 
         --row-height: auto;        
