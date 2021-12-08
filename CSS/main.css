@@ -123,7 +123,7 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
 /* Works on Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: white black;
+  scrollbar-color: black white;
 }
 
 /* Works on Chrome, Edge, and Safari */
