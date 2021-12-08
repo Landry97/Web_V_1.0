@@ -122,7 +122,8 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
 
 .visible-scrollbar, .invisible-scrollbar {
   display: block;
-  width: 10em;
+  width: 5em;
+  color: black;
   overflow: auto;
 }
 .invisible-scrollbar::-webkit-scrollbar {
