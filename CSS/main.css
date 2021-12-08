@@ -108,4 +108,8 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
 main{
         display: grid;
         grid-template-columns: repeat(3fr,2fr);
+    }
+    figure.project1{
+        display: grid;
+        grid-template-columns: repeat(3fr,2fr);
     }}
