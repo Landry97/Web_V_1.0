@@ -104,5 +104,8 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
     .project-list{
         display: grid;
         grid-template-columns: repeat(3fr,2fr);
-     
+    }
+main{
+        display: grid;
+        grid-template-columns: repeat(3fr,2fr);
     }}
