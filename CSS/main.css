@@ -97,7 +97,7 @@ figcaption.project-info1{position: absolute;top: 0;left: 0;padding-left: 5%;marg
 @media screen and (max-width: 440px){.project1 .project-info1{color: transparent;}}
 @media (max-width: 600px){footer{flex-wrap: wrap;flex-direction: column;}.instagram{margin-left: 0;}.copyright{margin-left: 0;}.privacy{margin-left: 0;}#myBtn{margin-left: auto;margin-right: 6%;}}
 @media (max-width: 750px){figure.project1{width: 36vw;padding:0;}}
-@media (min-width: 750px){figure.project1{width: 33vw;height: 33vh;}}
+@media (min-width: 750px){figure.project1{width: 33vw;height: 33vh;position:relative}}
 @media (min-width: 600px){footer{flex-wrap: nowrap;}.copyright{margin-left: auto;}#myBtn{margin-left: 3.5%;margin-right: 3.5%;}.privacy{margin-left: 3.5%;margin-right: 3.5%;}}
 li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter-spacing: .1rem;}
 @media (min-width: 1350px){
