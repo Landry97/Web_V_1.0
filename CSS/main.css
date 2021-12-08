@@ -103,8 +103,8 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
 @media (min-width: 750px){
     .project-list{ 
         --gap: .5rem; 
-        --num-cols: 4; 
-        --row-height: 500px;        
+        --num-cols: 3; 
+        --row-height: 600px;        
         box-sizing: border-box; 
         padding: var(--gap); 
         display: grid; 
