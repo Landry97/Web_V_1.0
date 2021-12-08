@@ -118,4 +118,4 @@ li.menu-item{font-size:1.2125rem;letter-spacing: 0;}h2{font-size:3.125rem;letter
 
 @media (min-width: 1350px){
     .project-list{ 
-        --num-cols: 3; }}
+        --num-cols: 3;}}
