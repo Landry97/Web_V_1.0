@@ -85,17 +85,17 @@ p.project-image:hover, .project-info:hover{color: rgb(219, 10, 10);}
 .madebyinfo{display: flex;width: auto;align-items: center;text-align: center;justify-content: center;margin: .5rem;padding: .5rem;letter-spacing: .1em;font-size: 0.9em;}
 figure.project-index:hover{transform: translateY(0)}
 figure.project-index:hover:before{opacity: 1;}
-figure.project-index:hover .project-info1{opacity: 1;transform: translateY(0);}
+figure.project-index:hover .project-info-index:hover{opacity: 1;transform: translateY(0);}
 figure.project-index{position: relative;}
 figure.project-index:before{content: '';position: absolute;display: block;width: 100%;height: 100%;background: transparent;z-index: 2;transition: 0.3s;opacity: 0;box-shadow: inset 0 0 0 0.15rem black;}
 figcaption.project-info-index{position: absolute;top: 0;left: 0;right:0;padding: 5% 0 0 5%;;width: 100%;height: 100%;}
-.project-index .project-info1{position: absolute;z-index: 3;opacity: 0;transform: translateY(0);transition: 0.1s;}
+.project-index .project-info-index{position: absolute;z-index: 3;opacity: 0;transform: translateY(0);transition: 0.1s;}
 .project-info-index p{margin: 0;letter-spacing: .1rem;}
 @media screen and (max-width:330px){.header-title a span{font-size: 0.9rem;}}
 @media (max-width: 950px){#nav-ul{display: none;}.balkentext{display: none;}.balken2{display: none;}.balken3{display: none;}}
 @media screen and (max-width:750px){.holdingcontainer {flex-direction: column;}}
-@media screen and (min-width: 440px){.project-info-index .project-info1{color: black;}}
-@media screen and (max-width: 440px){.project-info-index .project-info1{color: transparent;}}
+@media screen and (min-width: 440px){.project-info-index .project-info-index{color: black;}}
+@media screen and (max-width: 440px){.project-info-index .project-info-index{color: transparent;}}
 @media (max-width: 600px){footer{flex-wrap: wrap;flex-direction: column;}.instagram{margin-left: 0;}.copyright{margin-left: 0;}.privacy{margin-left: 0;}#myBtn{margin-left: auto;margin-right: 6%;}}
 @media (max-width: 750px){figure.project-index{width: 36vw;padding:0;}}
 @media (min-width: 750px){figure.project-index{width: 33vw;height: 33vh;position:relative}}
